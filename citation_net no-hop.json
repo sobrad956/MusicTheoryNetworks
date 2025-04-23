@@ -1,0 +1,5570 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "mto_paper": true,
+            "id": "Guerrero2006Serial_Intervention_in"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.29.3.5"
+        },
+        {
+            "mto_paper": true,
+            "id": "Schultz2012Tonal_Pairing_and"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.2.10"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.29.4.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "Everett2004Parody_with_an"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.30.2.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "Miller2020\u201cAll_of_the"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.27.4.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "Byron2006The_Test_Pressings"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.4.7"
+        },
+        {
+            "mto_paper": true,
+            "id": "Smith2014Listening_as_a"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.1.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "Hough2015Elements_of_Style"
+        },
+        {
+            "mto_paper": true,
+            "id": "Hanninen2014<img_style='margin-left:280px'_src"
+        },
+        {
+            "mto_paper": true,
+            "id": "Trinastic2014Dissonant_Harmony_and"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.15.5.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.30.3.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.30.1.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "Scholtz1998Algorithms_for_Mapping"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.3.7"
+        },
+        {
+            "mto_paper": true,
+            "id": "Jakubowski2018Spectral_Meter:_Dramatizing"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.1.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "Williams2010Modeling_Diatonic,_Acoustic,"
+        },
+        {
+            "mto_paper": true,
+            "id": "Guido2014Unpacking_the_Box"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.23.1.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "Mastic2015Normative_Wit:_Haydn\u2019s"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.24.3.5"
+        },
+        {
+            "mto_paper": true,
+            "id": "Brasky2010Extraordinary_Function_and"
+        },
+        {
+            "mto_paper": true,
+            "id": "Rothstein2008Common-tone_Tonality_in"
+        },
+        {
+            "mto_paper": true,
+            "id": "Garcia2005On_and_On:"
+        },
+        {
+            "mto_paper": true,
+            "id": "J.2013Fraught_with_Ought:"
+        },
+        {
+            "mto_paper": true,
+            "id": "Baragwanath2008Analytical_Approaches_to"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.30.3.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "Agawu1996Analyzing_Music_Under"
+        },
+        {
+            "mto_paper": true,
+            "id": "Burns2008Embodied_Subjectivities_in"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.24.1.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.4.8"
+        },
+        {
+            "mto_paper": true,
+            "id": "Burns2005Feeling_the_Style:"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.17.1.8"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.25.4.5"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.2.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "Hesselink2013Radiohead\u2019s_\u201cPyramid_Song\u201d:"
+        },
+        {
+            "mto_paper": true,
+            "id": "Childs2006Structural_and_Transformational"
+        },
+        {
+            "mto_paper": true,
+            "id": "Neidh\u00f6fer2007Bruno_Maderna\u2019s_Serial"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.2.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "Kuusi2009Discrimination_and_Evaluation"
+        },
+        {
+            "mto_paper": true,
+            "id": "Aziz2015The_Evolution_of"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.29.3.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.4.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.27.3.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "Lundberg2014\u201cTo_Let_it"
+        },
+        {
+            "mto_paper": true,
+            "id": "Collins2004An_Algorithm_for"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.4.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "Kuusi2003The_Role_of"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.29.3.7"
+        },
+        {
+            "mto_paper": true,
+            "id": "Scotto2002Transformational_Networks,_Transpositional"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.30.3.5"
+        },
+        {
+            "mto_paper": true,
+            "id": "Covach1994Destructuring_Cartesian_Dualism"
+        },
+        {
+            "mto_paper": true,
+            "id": "Scherzinger2010Temporal_Geometries_of"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.29.2.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.3.7"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.22.1.3."
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.23.4.5"
+        },
+        {
+            "mto_paper": true,
+            "id": "Sauer2007Cognitive_Dissonance_and"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.25.4.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.19.3.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.29.1.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "Christian2014Combination-Tone_Class_Sets"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.30.1.6"
+        },
+        {
+            "mto_paper": true,
+            "id": "J.2013Pastorals,_Passepieds,_and"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.27.2.8"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.27.3.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.25.3.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.21.2.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "Bl\u00e4ttler2017A_Voicing-Based_Model"
+        },
+        {
+            "mto_paper": true,
+            "id": "Kleppinger2011Copland\u2019s_Fifths_and"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.29.4.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "Pell2018Key_Profiles_in"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.27.4.6"
+        },
+        {
+            "mto_paper": true,
+            "id": "Brown2009Axis_Tonality_and"
+        },
+        {
+            "mto_paper": true,
+            "id": "Salley2015On_Duration_and"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.27.4.7"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.2.7"
+        },
+        {
+            "mto_paper": true,
+            "id": "Hook2007Why_Are_There"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.2.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.17.2.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "Johnson1995The_Computer_Presentation"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.30.4.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.4.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "Wild2014Genus,_Species_and"
+        },
+        {
+            "mto_paper": true,
+            "id": "Hepokoski2010Formal_Process,_Sonata"
+        },
+        {
+            "mto_paper": true,
+            "id": "Malawey2014Strophic_Modification_in"
+        },
+        {
+            "mto_paper": true,
+            "id": "Amiot2009Discrete_Fourier_Transform"
+        },
+        {
+            "mto_paper": true,
+            "id": "Kraus2009Coaching_Mozart\u2019s_String"
+        },
+        {
+            "mto_paper": true,
+            "id": "Judd2013\u201cTo_Discourse_Learnedly\u201d"
+        },
+        {
+            "mto_paper": true,
+            "id": "Wadsworth2012Directional_Tonality_in"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.24.4.7"
+        },
+        {
+            "mto_paper": true,
+            "id": "Jenkins2010After_the_Harvest:"
+        },
+        {
+            "mto_paper": true,
+            "id": "Cochrane1995The_Phases_of"
+        },
+        {
+            "mto_paper": true,
+            "id": "McClary2010In_Praise_of"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.14.2.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.2.7"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.30.1.7"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.1.7"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.18.2.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "Callahan2015Teaching_and_Learning"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.27.2.6"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.27.2.11"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.2.9"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.2.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.27.2.9"
+        },
+        {
+            "mto_paper": true,
+            "id": "Rahn1994From_Similarity_to"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.19.1.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "Brinkman1997Using_the_Tools"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.23.4.6"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.2307/763915"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.1.5"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.29.3.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.30.2.7"
+        },
+        {
+            "mto_paper": true,
+            "id": "Cohen2015Expansive_Form_in"
+        },
+        {
+            "mto_paper": true,
+            "id": "Leydon2012Clean_as_a"
+        },
+        {
+            "mto_paper": true,
+            "id": "Holm-Hudson2002Your_Guitar,_It"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.15.5.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.1.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.25.1.6"
+        },
+        {
+            "mto_paper": true,
+            "id": "Attas2009Metaphors_in_Motion:"
+        },
+        {
+            "mto_paper": true,
+            "id": "Samarotto2004Sublimating_Sharp_<math><mover><mn>4</mn><mo>\u0302</mo></mover></math>:"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.25.4.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "Murphy2007Considering_Network_Recursion"
+        },
+        {
+            "mto_paper": true,
+            "id": "Love2015Historical_Hypermetrical_Hearing:"
+        },
+        {
+            "mto_paper": true,
+            "id": "McCreless1996Contemporary_Music_Theory"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.3.8"
+        },
+        {
+            "mto_paper": true,
+            "id": "Gotham2015Meter_Metrics:_Characterizing"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.12.1.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "Schmalfeldt2010Response_to_Mike"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.25.3.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "BaileyShea2007Filleted_Mignon:_A"
+        },
+        {
+            "mto_paper": true,
+            "id": "Boss2015\u201cAway_with_Motivic"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.2.6"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.12.2.2."
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.22.1.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.27.4.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "Hanenberg2016Rock_Modulation_and"
+        },
+        {
+            "mto_paper": true,
+            "id": "Goldenberg2006A_Musical_Gesture"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.30.3.6"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.27.2.10"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.24.2.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "Ewell2012Rethinking_Octatonicism:_Views"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.23.2.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.27.1.7"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.3.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "Kallis2008Principles_of_Pitch"
+        },
+        {
+            "mto_paper": true,
+            "id": "Burstein2015\u201cThat_Awkward_Scale\u201d:"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.18.4.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.1.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.3.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.4.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "Renwick1994\u201cA_Subject_of"
+        },
+        {
+            "mto_paper": true,
+            "id": "Gur2008Body,_Forces,_and"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.29.4.5"
+        },
+        {
+            "mto_paper": true,
+            "id": "Moore2005The_Persona-Environment_Relation"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.30.1.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.20.4.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "Roeder2009Introduction"
+        },
+        {
+            "mto_paper": true,
+            "id": "Buchler2007Reconsidering_Klumpenhouwer_Networks"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.1.6"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.3.5"
+        },
+        {
+            "mto_paper": true,
+            "id": "Gauldin2004Keynote_Address,_Twenty-seventh"
+        },
+        {
+            "mto_paper": true,
+            "id": "Guerrero2007Francesco\u2019s_Dream:_"
+        },
+        {
+            "mto_paper": true,
+            "id": "Johnston2014Modal_Idioms_and"
+        },
+        {
+            "mto_paper": true,
+            "id": "Judd1994Composers,_performers,_and"
+        },
+        {
+            "mto_paper": true,
+            "id": "Quaglia2015Planning_for_Student"
+        },
+        {
+            "mto_paper": true,
+            "id": "Malawey2010Harmonic_Stasis_and"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.29.1.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "Townsend2012Scriabin_and_the"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.3.8"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.30.2.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.29.2.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "Burnham1996Theorists_and_\u201cThe"
+        },
+        {
+            "mto_paper": true,
+            "id": "Peck2011A_GAP_Tutorial"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.23.1.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "Schmalfeldt2010One_More_Time"
+        },
+        {
+            "mto_paper": true,
+            "id": "Ricci2007The_Progress_of"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.2.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "Martin2010Harmonic_Progression_in"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.12.4.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.23.3.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.17.4.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.23.3.6"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.19.4.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "Roeder2009Constructing_Transformational_Signification:"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.30.4.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.30.2.5"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.24.1.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.2.6"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.23.1.7"
+        },
+        {
+            "mto_paper": true,
+            "id": "Sallmen2007Listening_to_the"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.27.1.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "Samarotto2009\u201cPlays_of_Opposing"
+        },
+        {
+            "mto_paper": true,
+            "id": "Aarden2004Rules_for_Chord"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.23.2.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.15.5.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "Code1995Listening_for_Schubert\u2019s"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.14.2.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.23.1.6"
+        },
+        {
+            "mto_paper": true,
+            "id": "Cramer2003The_Harmonic_Function"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.7.1.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.27.2.5"
+        },
+        {
+            "mto_paper": true,
+            "id": "Robison1994Modifying_Interval-Class_Vectors"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.4.6"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.21.2.5"
+        },
+        {
+            "mto_paper": true,
+            "id": "McCreless2011Ownership,_In_Music"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.24.3.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "Marion2007Debussy_and_Recollection:"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.27.1.5"
+        },
+        {
+            "mto_paper": true,
+            "id": "Noll2011Modes,_the_Height-Width"
+        },
+        {
+            "mto_paper": true,
+            "id": "Murphy2016Cohn\u2019s_Platonic_Model"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.4.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "Auerbach2010Pedagogical_Applications_of"
+        },
+        {
+            "mto_paper": true,
+            "id": "Bakulina2017Canons_as_Hypermetrical"
+        },
+        {
+            "mto_paper": true,
+            "id": "Urista2007Chopin\u2019s_Prelude_in"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.22.4.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "Samplaski2005Mapping_the_Geometries"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.21.1.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.22.4.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "Sayrs2003Narrative,_Metaphor,_and"
+        },
+        {
+            "mto_paper": true,
+            "id": "Agmon1996Beethoven\u2019s_Op._81a"
+        },
+        {
+            "mto_paper": true,
+            "id": "Zbikowski1995Theories_of_Categorization"
+        },
+        {
+            "mto_paper": true,
+            "id": "Kopp1995On_the_Function"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.30.4.5"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.1.8"
+        },
+        {
+            "mto_paper": true,
+            "id": "Lee2010A_Response_to"
+        },
+        {
+            "mto_paper": true,
+            "id": "Salley2021Late_Night_Thoughts"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.16.3.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "Lewin1998The_D_Major"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.25.1.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.21.3.7"
+        },
+        {
+            "mto_paper": true,
+            "id": "Donin2008Charting_the_Score"
+        },
+        {
+            "mto_paper": true,
+            "id": "Bor2009Sonata-Formal_Functions_and"
+        },
+        {
+            "mto_paper": true,
+            "id": "Pedneault-Deslauriers2017The_French_Path:"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.30.1.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.25.2.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.24.3.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "Atkinson2011Canons,_Augmentations,_and"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.24.4.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.22.2.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "Krims1994Bloom,_Post-Structuralism(s),_and"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.22.3.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "Clement2015Scale_Systems_and"
+        },
+        {
+            "mto_paper": true,
+            "id": "Heetderks2011A_Tonal_Revolution"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.25.1.5"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.21.3.9"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.27.4.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.3.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.23.3.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.2.8"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.4.6"
+        },
+        {
+            "mto_paper": true,
+            "id": "Toorn1995A_Response_to"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.20.2.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "Brown1996\u201cAdrift_on_Neurath\u2019s"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.4.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "Lind2009An_Interactive_Trichord"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.27.1.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.2.5"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.25.4.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "Reed2007A_Tetrahelix_Animates"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.2.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.30.4.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.25.4.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.29.2.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "Schmalfeldt2010Response_to_Reddick"
+        },
+        {
+            "mto_paper": true,
+            "id": "Wells2017A_Generalized_Intervallic"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.4.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "Dineen2002Figured_Bass_and"
+        },
+        {
+            "mto_paper": true,
+            "id": "Li2021Cantopop_and_Speech-Melody"
+        },
+        {
+            "mto_paper": true,
+            "id": "Parsons2015Dyslexia_and_Post-Secondary"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.22.1.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.18.4.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.30.3.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "Roeder2001Pulse_Streams_and"
+        },
+        {
+            "mto_paper": true,
+            "id": "Kutschke2014Music_and_Other"
+        },
+        {
+            "mto_paper": true,
+            "id": "Reenan2016Types_and_Applications"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.27.2.7"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.23.4.8"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.25.2.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "Neumeyer2006The_Contredanse,_Classical"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.23.4.7"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.3.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "Silberman2003Post-Tonal_Improvisation_in"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.23.4.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.24.1.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.1.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.30.2.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.22.4.5"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.1.5"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.2.10"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.27.1.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.25.2.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "Everett2004Making_Sense_of"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.1.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.29.1.5"
+        },
+        {
+            "mto_paper": true,
+            "id": "Goehr2015Does_it_Matter"
+        },
+        {
+            "mto_paper": true,
+            "id": "Caplin2010Beethoven\u2019s_\u201cTempest\u201d_Exposition:"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.29.4.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.1.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.1.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "Chenette2012Hearing_Counterpoint_Within"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.2.8"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.19.3.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.30.2.6"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.3.9"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.27.4.5"
+        },
+        {
+            "mto_paper": true,
+            "id": "Amiot2015Old_and_New"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.29.3.8"
+        },
+        {
+            "mto_paper": true,
+            "id": "Sallmen2011Exploring_Tetrachordal_Voice-Leading"
+        },
+        {
+            "mto_paper": true,
+            "id": "Howard2015Compositional_Strategies_in"
+        },
+        {
+            "mto_paper": true,
+            "id": "Samplaski2004Interval-Classes_and_Psychological"
+        },
+        {
+            "mto_paper": true,
+            "id": "Duffin2006Just_Intonation_in"
+        },
+        {
+            "mto_paper": true,
+            "id": "Maler2013Songs_for_Hands:"
+        },
+        {
+            "mto_paper": true,
+            "id": "Bourne2016Perceiving_Irony_in"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.3.6"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.30.1.8"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.4.7"
+        },
+        {
+            "mto_paper": true,
+            "id": "Killam1994Feminist_Music_Theories\u2014Process"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.25.1.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.16.4.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "Blake2012Timbre_as_Differentiation"
+        },
+        {
+            "mto_paper": true,
+            "id": "Lind2009Transformational_Distance_and"
+        },
+        {
+            "mto_paper": true,
+            "id": "Rusch2013Beyond_Homage_and"
+        },
+        {
+            "mto_paper": true,
+            "id": "Cook2009Moving_Through_Triadic"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.29.1.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "Walden2010Noting_Images:_Understanding"
+        },
+        {
+            "mto_paper": true,
+            "id": "Ewell2013\u201cOn_the_System"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.4.5"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.29.3.6"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.30.3.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "Benadon2007A_Circular_Plot"
+        },
+        {
+            "mto_paper": true,
+            "id": "Clarke2017North_Indian_Classical"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.24.4.6"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.29.3.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.2.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "Butterfield2010Variant_Timekeeping_Patterns"
+        },
+        {
+            "mto_paper": true,
+            "id": "Byros2015Prelude_on_a"
+        },
+        {
+            "mto_paper": true,
+            "id": "Burns2010Rhythmic_Archetypes_in"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.20.1.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.24.3.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "Stankis2015Maurice_Ravel\u2019s_\u201cColor"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.25.3.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.20.2.5"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.24.4.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "Straus2012Three_Stravinsky_Analyses:"
+        },
+        {
+            "mto_paper": true,
+            "id": "Dubiel1996On_Getting_Deconstructed"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.25.1.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.2.12"
+        },
+        {
+            "mto_paper": true,
+            "id": "Leong2005The_Performer\u2019s_Voice:"
+        },
+        {
+            "mto_paper": true,
+            "id": "Burns2004Authenticity,_Appropriation,_Signification:"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.17.2.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.30.1.5"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.30.4.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "Schubert2013What_Modular_Analysis"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.1.9"
+        },
+        {
+            "mto_paper": true,
+            "id": "Klumpenhouwer1994Some_Remarks_on"
+        },
+        {
+            "mto_paper": true,
+            "id": "Capuzzo2008Maximally_Alpha-Like_Operations"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.4.9"
+        },
+        {
+            "mto_paper": true,
+            "id": "Covach1995Schoenberg\u2019s_Turn_to"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.21.3.10"
+        },
+        {
+            "mto_paper": true,
+            "id": "Eckert2005\u201cSo,_you_want"
+        },
+        {
+            "mto_paper": true,
+            "id": "Ravenscroft2010Chair\u2019s_Introduction_to"
+        },
+        {
+            "mto_paper": true,
+            "id": "Jan2011Music,_Memory,_and"
+        },
+        {
+            "mto_paper": true,
+            "id": "Marlowe2020Resolving_Tensions_between"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.4.5"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.27.1.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "Reddick2010<i>Becoming</i>_at_a"
+        },
+        {
+            "mto_paper": true,
+            "id": "Duker2015Hacking_the_Music"
+        },
+        {
+            "mto_paper": true,
+            "id": "Ponce2014Form,_Diversity,_and"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.16.4.4."
+        },
+        {
+            "mto_paper": true,
+            "id": "Schachter2015Structural_Levels_in"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.27.3.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "Robb2015Imagined,_Supplemental_Sound"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.24.4.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.27.4.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "Davis2011Stream_Segregation_and"
+        },
+        {
+            "mto_paper": true,
+            "id": "Rodgers2011Thinking_(and_Singing)"
+        },
+        {
+            "mto_paper": true,
+            "id": "Yust2015Voice-Leading_Transformation_and"
+        },
+        {
+            "mto_paper": true,
+            "id": "Gotham2016Pitch_Properties_of"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.24.4.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.27.4.9"
+        },
+        {
+            "mto_paper": true,
+            "id": "Leonard2018Musical_Mimesis_in"
+        },
+        {
+            "mto_paper": true,
+            "id": "Andersen2017\u201cWhat_can_they"
+        },
+        {
+            "mto_paper": true,
+            "id": "Hoag2011Brahms\u2019s_\u201cGreat_Tragic"
+        },
+        {
+            "mto_paper": true,
+            "id": "Nobile2013Interval_Permutations"
+        },
+        {
+            "mto_paper": true,
+            "id": "Rothgeb1995The_Tristan_Chord:"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.29.1.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "Diergarten2008\u201cAt_times_even"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.30.1.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.23.2.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.29.2.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "Broesche2016Glenn_Gould,_Spliced:"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.4.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.25.2.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "Hussey2003Triadic_Post-Tonality_and"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.3.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.25.1.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.3.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.25.2.6"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.27.4.8"
+        },
+        {
+            "mto_paper": true,
+            "id": "Martens2007Glenn_Gould\u2019s_\u201cConstant"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.22.3.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "Roeder2009A_Transformational_Space"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.29.4.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.3.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "Leydon2002Towards_a_Typology"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.17.4.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "McNamee1997Publishing_and_Pedagogy"
+        },
+        {
+            "mto_paper": true,
+            "id": "Urista2003Beyond_Words:_The"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.2.5"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.19.1.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "Mawer2007Exploring_Complementation_in"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.22.3.1"
+        },
+        {
+            "mto_paper": true,
+            "id": "Laursen2016Orchestration_Strategies_in"
+        },
+        {
+            "mto_paper": true,
+            "id": "Black2018Schubert\u2019s_Development_of"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.29.3.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.19.2.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "Lau2015Composing_Declamation:_Notated"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.4.8"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.28.3.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.30.3.7"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.24.4.5"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.23.1.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "Rusch2013Crossing_Over_with"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.24.2.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "Puri2017Ravel\u2019s_<i>Valses_nobles"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.23.4.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.21.1.4"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.25.2.5"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.2.9"
+        },
+        {
+            "mto_paper": true,
+            "id": "Cubero2017Inwardness_and_Inner"
+        },
+        {
+            "mto_paper": true,
+            "id": "Sobaskie2006Contextual_Drama_in"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.2.2"
+        },
+        {
+            "mto_paper": true,
+            "id": "Headlam1997Multimedia_for_Music"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.19.4.3"
+        },
+        {
+            "mto_paper": true,
+            "id": "10.30535/mto.26.2.11"
+        },
+        {
+            "mto_paper": true,
+            "id": "Dineen2013Species_Counterpoint_with"
+        }
+    ],
+    "edges": [
+        {
+            "weight": 0.25,
+            "source": "Guerrero2006Serial_Intervention_in",
+            "target": "Guerrero2007Francesco\u2019s_Dream:_"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.3.5",
+            "target": "Burns2005Feeling_the_Style:"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.3.5",
+            "target": "10.30535/mto.22.1.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.3.5",
+            "target": "10.30535/mto.26.3.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.3.5",
+            "target": "10.30535/mto.28.4.6"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.3.5",
+            "target": "10.30535/mto.19.4.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "Schultz2012Tonal_Pairing_and",
+            "target": "Everett2004Making_Sense_of"
+        },
+        {
+            "weight": 1.0,
+            "source": "Schultz2012Tonal_Pairing_and",
+            "target": "10.30535/mto.17.1.8"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.4.2",
+            "target": "10.30535/mto.20.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.4.2",
+            "target": "10.30535/mto.22.3.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.4.2",
+            "target": "10.30535/mto.27.1.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.4.2",
+            "target": "10.30535/mto.27.1.5"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.4.2",
+            "target": "10.30535/mto.24.3.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.4.2",
+            "target": "10.30535/mto.19.2.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.4.2",
+            "target": "10.30535/mto.28.3.8"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.29.4.2",
+            "target": "Burns2004Authenticity,_Appropriation,_Signification:"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.29.4.2",
+            "target": "Burns2008Embodied_Subjectivities_in"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.29.4.2",
+            "target": "Burns2005Feeling_the_Style:"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.2.4",
+            "target": "10.30535/mto.24.4.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.4.3",
+            "target": "10.30535/mto.18.4.3"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.27.4.3",
+            "target": "Cubero2017Inwardness_and_Inner"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.1.3",
+            "target": "Blake2012Timbre_as_Differentiation"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.1.3",
+            "target": "Everett2004Making_Sense_of"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.26.1.3",
+            "target": "10.30535/mto.21.2.5"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.1.3",
+            "target": "10.30535/mto.17.1.8"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.26.1.3",
+            "target": "Heetderks2011A_Tonal_Revolution"
+        },
+        {
+            "weight": 1.0,
+            "source": "Hough2015Elements_of_Style",
+            "target": "Everett2004Making_Sense_of"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.3.7",
+            "target": "10.30535/mto.24.1.4"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.26.3.7",
+            "target": "10.30535/mto.26.1.5"
+        },
+        {
+            "weight": 1.0,
+            "source": "Jakubowski2018Spectral_Meter:_Dramatizing",
+            "target": "Bourne2016Perceiving_Irony_in"
+        },
+        {
+            "weight": 1.0,
+            "source": "Jakubowski2018Spectral_Meter:_Dramatizing",
+            "target": "10.30535/mto.22.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.1.2",
+            "target": "10.30535/mto.20.1.1"
+        },
+        {
+            "weight": 0.25,
+            "source": "Guido2014Unpacking_the_Box",
+            "target": "10.30535/mto.28.4.7"
+        },
+        {
+            "weight": 0.25,
+            "source": "Guido2014Unpacking_the_Box",
+            "target": "10.30535/mto.24.1.4"
+        },
+        {
+            "weight": 0.25,
+            "source": "Guido2014Unpacking_the_Box",
+            "target": "10.30535/mto.27.4.9"
+        },
+        {
+            "weight": 0.25,
+            "source": "Guido2014Unpacking_the_Box",
+            "target": "Schubert2013What_Modular_Analysis"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.3.4",
+            "target": "10.30535/mto.25.3.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.3.4",
+            "target": "10.30535/mto.19.4.3"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.30.3.4",
+            "target": "10.30535/mto.28.4.3"
+        },
+        {
+            "weight": 1.25,
+            "source": "Burns2008Embodied_Subjectivities_in",
+            "target": "Burns2005Feeling_the_Style:"
+        },
+        {
+            "weight": 1.25,
+            "source": "Burns2008Embodied_Subjectivities_in",
+            "target": "Burns2004Authenticity,_Appropriation,_Signification:"
+        },
+        {
+            "weight": 1.0,
+            "source": "Burns2008Embodied_Subjectivities_in",
+            "target": "Moore2005The_Persona-Environment_Relation"
+        },
+        {
+            "weight": 0.25,
+            "source": "Burns2008Embodied_Subjectivities_in",
+            "target": "10.30535/mto.29.4.2"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.24.1.4",
+            "target": "10.30535/mto.28.4.7"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.24.1.4",
+            "target": "10.30535/mto.27.4.9"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.24.1.4",
+            "target": "Schubert2013What_Modular_Analysis"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.24.1.4",
+            "target": "Guido2014Unpacking_the_Box"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.26.4.8",
+            "target": "10.30535/mto.16.3.2"
+        },
+        {
+            "weight": 0.25,
+            "source": "Burns2005Feeling_the_Style:",
+            "target": "Burns2004Authenticity,_Appropriation,_Signification:"
+        },
+        {
+            "weight": 0.25,
+            "source": "Burns2005Feeling_the_Style:",
+            "target": "Burns2008Embodied_Subjectivities_in"
+        },
+        {
+            "weight": 0.25,
+            "source": "Burns2005Feeling_the_Style:",
+            "target": "10.30535/mto.29.4.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.17.1.8",
+            "target": "Everett2004Making_Sense_of"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.17.1.8",
+            "target": "10.30535/mto.23.1.7"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.17.1.8",
+            "target": "10.30535/mto.17.4.3"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.17.1.8",
+            "target": "10.30535/mto.25.2.5"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.26.2.1",
+            "target": "10.30535/mto.15.5.1"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.26.2.1",
+            "target": "10.30535/mto.22.3.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.2.1",
+            "target": "10.30535/mto.19.3.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.2.1",
+            "target": "10.30535/mto.23.4.8"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.26.2.1",
+            "target": "10.30535/mto.14.2.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "Neidh\u00f6fer2007Bruno_Maderna\u2019s_Serial",
+            "target": "Guerrero2006Serial_Intervention_in"
+        },
+        {
+            "weight": 0.25,
+            "source": "Neidh\u00f6fer2007Bruno_Maderna\u2019s_Serial",
+            "target": "10.30535/mto.30.2.5"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.26.2.4",
+            "target": "Ewell2013\u201cOn_the_System"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.26.2.4",
+            "target": "10.30535/mto.25.4.4"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.26.2.4",
+            "target": "Ewell2012Rethinking_Octatonicism:_Views"
+        },
+        {
+            "weight": 1.25,
+            "source": "Kuusi2009Discrimination_and_Evaluation",
+            "target": "Kuusi2003The_Role_of"
+        },
+        {
+            "weight": 0.25,
+            "source": "Aziz2015The_Evolution_of",
+            "target": "10.30535/mto.28.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.3.1",
+            "target": "10.30535/mto.29.1.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.4.4",
+            "target": "10.30535/mto.15.5.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.4.4",
+            "target": "10.30535/mto.17.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.4.4",
+            "target": "10.30535/mto.21.1.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.4.4",
+            "target": "10.30535/mto.18.4.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.4.4",
+            "target": "10.30535/mto.15.5.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.4.3",
+            "target": "10.30535/mto.21.3.7"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.28.4.3",
+            "target": "10.30535/mto.30.3.4"
+        },
+        {
+            "weight": 0.25,
+            "source": "Kuusi2003The_Role_of",
+            "target": "Kuusi2009Discrimination_and_Evaluation"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.3.7",
+            "target": "10.30535/mto.28.1.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.3.7",
+            "target": "10.30535/mto.16.4.4."
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.3.7",
+            "target": "10.30535/mto.20.1.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.3.5",
+            "target": "10.30535/mto.20.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.3.5",
+            "target": "10.30535/mto.17.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.3.5",
+            "target": "10.30535/mto.7.1.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.3.5",
+            "target": "10.30535/mto.19.4.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.3.5",
+            "target": "10.30535/mto.27.4.8"
+        },
+        {
+            "weight": 0.25,
+            "source": "Covach1994Destructuring_Cartesian_Dualism",
+            "target": "Covach1995Schoenberg\u2019s_Turn_to"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.2.2",
+            "target": "10.30535/mto.26.2.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.2.2",
+            "target": "10.30535/mto.26.3.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.7",
+            "target": "10.30535/mto.17.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.7",
+            "target": "10.30535/mto.26.2.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.7",
+            "target": "10.30535/mto.22.4.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.7",
+            "target": "10.30535/mto.18.4.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.7",
+            "target": "10.30535/mto.21.3.10"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.22.1.3.",
+            "target": "10.30535/mto.19.3.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.22.1.3.",
+            "target": "10.30535/mto.19.4.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.22.1.3.",
+            "target": "10.30535/mto.12.2.2."
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.22.1.3.",
+            "target": "Neumeyer2006The_Contredanse,_Classical"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.22.1.3.",
+            "target": "10.30535/mto.23.3.6"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.4.3",
+            "target": "10.30535/mto.23.3.6"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.4.3",
+            "target": "10.30535/mto.23.2.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.4.3",
+            "target": "10.30535/mto.17.1.8"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.4.3",
+            "target": "10.30535/mto.17.4.3"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.25.4.3",
+            "target": "10.30535/mto.27.4.5"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.25.4.3",
+            "target": "10.30535/mto.30.1.8"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.25.4.3",
+            "target": "10.30535/mto.23.4.3"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.19.3.1",
+            "target": "10.30535/mto.24.1.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.1.2",
+            "target": "10.30535/mto.25.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.1.2",
+            "target": "10.30535/mto.23.4.7"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.29.1.2",
+            "target": "10.30535/mto.26.3.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.2.8",
+            "target": "10.30535/mto.23.1.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.2.8",
+            "target": "10.30535/mto.18.2.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.3.2",
+            "target": "10.30535/mto.19.3.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.3.3",
+            "target": "10.30535/mto.23.1.6"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.21.2.3",
+            "target": "Bourne2016Perceiving_Irony_in"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.21.2.3",
+            "target": "10.30535/mto.30.4.5"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.4.6",
+            "target": "10.30535/mto.18.4.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "Salley2015On_Duration_and",
+            "target": "Covach1995Schoenberg\u2019s_Turn_to"
+        },
+        {
+            "weight": 0.25,
+            "source": "Salley2015On_Duration_and",
+            "target": "Salley2021Late_Night_Thoughts"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.2.7",
+            "target": "Leydon2012Clean_as_a"
+        },
+        {
+            "weight": 0.25,
+            "source": "Hook2007Why_Are_There",
+            "target": "10.30535/mto.17.4.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.2.3",
+            "target": "10.30535/mto.23.4.7"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.2.3",
+            "target": "10.30535/mto.26.2.7"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.28.2.3",
+            "target": "10.30535/mto.29.3.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.4.1",
+            "target": "10.30535/mto.17.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.4.1",
+            "target": "10.30535/mto.22.1.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.4.1",
+            "target": "10.30535/mto.28.2.10"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.4.3",
+            "target": "10.30535/mto.19.1.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.4.3",
+            "target": "Leong2005The_Performer\u2019s_Voice:"
+        },
+        {
+            "weight": 0.25,
+            "source": "Malawey2014Strophic_Modification_in",
+            "target": "Malawey2010Harmonic_Stasis_and"
+        },
+        {
+            "weight": 0.25,
+            "source": "Amiot2009Discrete_Fourier_Transform",
+            "target": "Amiot2015Old_and_New"
+        },
+        {
+            "weight": 1.0,
+            "source": "Jenkins2010After_the_Harvest:",
+            "target": "Childs2006Structural_and_Transformational"
+        },
+        {
+            "weight": 1.0,
+            "source": "Jenkins2010After_the_Harvest:",
+            "target": "Roeder2009A_Transformational_Space"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.14.2.2",
+            "target": "10.30535/mto.30.1.8"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.14.2.2",
+            "target": "10.30535/mto.20.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.2.7",
+            "target": "10.30535/mto.22.1.2"
+        },
+        {
+            "weight": 1.5,
+            "source": "10.30535/mto.30.1.7",
+            "target": "10.30535/mto.27.4.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.1.7",
+            "target": "10.30535/mto.21.2.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.1.7",
+            "target": "10.30535/mto.28.3.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.1.7",
+            "target": "10.30535/mto.21.1.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.1.7",
+            "target": "10.30535/mto.28.1.4"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.30.1.7",
+            "target": "10.30535/mto.26.2.11"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.1.7",
+            "target": "10.30535/mto.26.1.5"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.30.1.7",
+            "target": "10.30535/mto.21.3.10"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.30.1.7",
+            "target": "10.30535/mto.22.1.1"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.28.1.7",
+            "target": "Rahn1994From_Similarity_to"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.18.2.3",
+            "target": "Johnston2014Modal_Idioms_and"
+        },
+        {
+            "weight": 1.0,
+            "source": "Callahan2015Teaching_and_Learning",
+            "target": "Duker2015Hacking_the_Music"
+        },
+        {
+            "weight": 1.0,
+            "source": "Callahan2015Teaching_and_Learning",
+            "target": "Quaglia2015Planning_for_Student"
+        },
+        {
+            "weight": 0.25,
+            "source": "Callahan2015Teaching_and_Learning",
+            "target": "10.30535/mto.19.3.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.2.6",
+            "target": "10.30535/mto.12.4.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.2.6",
+            "target": "10.30535/mto.20.1.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.2.11",
+            "target": "10.30535/mto.24.3.5"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.27.2.11",
+            "target": "10.30535/mto.21.3.7"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.2.9",
+            "target": "10.30535/mto.20.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.2.9",
+            "target": "10.30535/mto.22.3.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.2.9",
+            "target": "10.30535/mto.23.3.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.2.9",
+            "target": "10.30535/mto.23.3.6"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.2.9",
+            "target": "10.30535/mto.17.1.8"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.2.4",
+            "target": "10.30535/mto.26.2.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.2.4",
+            "target": "10.30535/mto.26.3.2"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.28.2.4",
+            "target": "10.30535/mto.26.2.6"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.27.2.9",
+            "target": "10.30535/mto.30.2.2"
+        },
+        {
+            "weight": 0.25,
+            "source": "Rahn1994From_Similarity_to",
+            "target": "10.30535/mto.28.1.7"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.23.4.6",
+            "target": "10.30535/mto.21.1.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.23.4.6",
+            "target": "Everett2004Making_Sense_of"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.23.4.6",
+            "target": "10.30535/mto.23.3.6"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.23.4.6",
+            "target": "10.30535/mto.23.2.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.1.5",
+            "target": "Byros2015Prelude_on_a"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.26.1.5",
+            "target": "10.30535/mto.26.3.7"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.3.4",
+            "target": "10.30535/mto.16.4.4."
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.3.4",
+            "target": "10.30535/mto.20.1.1"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.30.2.7",
+            "target": "10.30535/mto.23.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.2.7",
+            "target": "10.30535/mto.21.2.3"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.30.2.7",
+            "target": "10.30535/mto.24.4.5"
+        },
+        {
+            "weight": 1.0,
+            "source": "Cohen2015Expansive_Form_in",
+            "target": "Clement2015Scale_Systems_and"
+        },
+        {
+            "weight": 1.0,
+            "source": "Leydon2012Clean_as_a",
+            "target": "Blake2012Timbre_as_Differentiation"
+        },
+        {
+            "weight": 1.0,
+            "source": "Leydon2012Clean_as_a",
+            "target": "Cramer2003The_Harmonic_Function"
+        },
+        {
+            "weight": 1.0,
+            "source": "Leydon2012Clean_as_a",
+            "target": "10.30535/mto.18.2.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "Leydon2012Clean_as_a",
+            "target": "10.30535/mto.12.2.2."
+        },
+        {
+            "weight": 0.25,
+            "source": "Leydon2012Clean_as_a",
+            "target": "Leydon2002Towards_a_Typology"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.15.5.1",
+            "target": "10.30535/mto.14.2.3"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.15.5.1",
+            "target": "10.30535/mto.22.3.1"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.15.5.1",
+            "target": "10.30535/mto.26.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.1.2",
+            "target": "10.30535/mto.20.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.1.2",
+            "target": "10.30535/mto.22.3.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "Attas2009Metaphors_in_Motion:",
+            "target": "Reed2007A_Tetrahelix_Animates"
+        },
+        {
+            "weight": 0.25,
+            "source": "Samarotto2004Sublimating_Sharp_<math><mover><mn>4</mn><mo>\u0302</mo></mover></math>:",
+            "target": "Samarotto2009\u201cPlays_of_Opposing"
+        },
+        {
+            "weight": 1.0,
+            "source": "Murphy2007Considering_Network_Recursion",
+            "target": "Buchler2007Reconsidering_Klumpenhouwer_Networks"
+        },
+        {
+            "weight": 0.25,
+            "source": "Murphy2007Considering_Network_Recursion",
+            "target": "Murphy2016Cohn\u2019s_Platonic_Model"
+        },
+        {
+            "weight": 0.25,
+            "source": "Murphy2007Considering_Network_Recursion",
+            "target": "10.30535/mto.28.1.6"
+        },
+        {
+            "weight": 0.25,
+            "source": "Murphy2007Considering_Network_Recursion",
+            "target": "10.30535/mto.12.2.2."
+        },
+        {
+            "weight": 0.25,
+            "source": "McCreless1996Contemporary_Music_Theory",
+            "target": "McCreless2011Ownership,_In_Music"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.26.3.8",
+            "target": "Rodgers2011Thinking_(and_Singing)"
+        },
+        {
+            "weight": 1.0,
+            "source": "Gotham2015Meter_Metrics:_Characterizing",
+            "target": "Amiot2015Old_and_New"
+        },
+        {
+            "weight": 1.0,
+            "source": "Gotham2015Meter_Metrics:_Characterizing",
+            "target": "Lau2015Composing_Declamation:_Notated"
+        },
+        {
+            "weight": 1.0,
+            "source": "Gotham2015Meter_Metrics:_Characterizing",
+            "target": "10.30535/mto.19.2.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "Gotham2015Meter_Metrics:_Characterizing",
+            "target": "10.30535/mto.20.1.1"
+        },
+        {
+            "weight": 0.25,
+            "source": "Gotham2015Meter_Metrics:_Characterizing",
+            "target": "Gotham2016Pitch_Properties_of"
+        },
+        {
+            "weight": 0.25,
+            "source": "Schmalfeldt2010Response_to_Mike",
+            "target": "Schmalfeldt2010One_More_Time"
+        },
+        {
+            "weight": 0.25,
+            "source": "Schmalfeldt2010Response_to_Mike",
+            "target": "Schmalfeldt2010Response_to_Reddick"
+        },
+        {
+            "weight": 0.25,
+            "source": "BaileyShea2007Filleted_Mignon:_A",
+            "target": "10.30535/mto.20.4.1"
+        },
+        {
+            "weight": 0.25,
+            "source": "Boss2015\u201cAway_with_Motivic",
+            "target": "10.30535/mto.28.3.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.2.6",
+            "target": "Everett2004Making_Sense_of"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.2.6",
+            "target": "10.30535/mto.23.2.2"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.26.2.6",
+            "target": "10.30535/mto.28.2.4"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.12.2.2.",
+            "target": "Murphy2016Cohn\u2019s_Platonic_Model"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.12.2.2.",
+            "target": "Murphy2007Considering_Network_Recursion"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.12.2.2.",
+            "target": "10.30535/mto.28.1.6"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.22.1.1",
+            "target": "10.30535/mto.30.1.7"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.22.1.1",
+            "target": "10.30535/mto.27.4.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.4.1",
+            "target": "10.30535/mto.20.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.4.1",
+            "target": "10.30535/mto.19.3.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.4.1",
+            "target": "10.30535/mto.23.3.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.4.1",
+            "target": "10.30535/mto.22.1.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "Hanenberg2016Rock_Modulation_and",
+            "target": "10.30535/mto.20.4.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "Hanenberg2016Rock_Modulation_and",
+            "target": "Burns2004Authenticity,_Appropriation,_Signification:"
+        },
+        {
+            "weight": 1.0,
+            "source": "Hanenberg2016Rock_Modulation_and",
+            "target": "10.30535/mto.17.1.8"
+        },
+        {
+            "weight": 1.0,
+            "source": "Hanenberg2016Rock_Modulation_and",
+            "target": "10.30535/mto.17.4.3"
+        },
+        {
+            "weight": 0.25,
+            "source": "Goldenberg2006A_Musical_Gesture",
+            "target": "10.30535/mto.26.3.2"
+        },
+        {
+            "weight": 0.25,
+            "source": "Goldenberg2006A_Musical_Gesture",
+            "target": "10.30535/mto.18.4.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.3.6",
+            "target": "10.30535/mto.14.2.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.3.6",
+            "target": "10.30535/mto.27.2.6"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.3.6",
+            "target": "10.30535/mto.22.4.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.3.6",
+            "target": "10.30535/mto.24.2.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.3.6",
+            "target": "10.30535/mto.23.1.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.3.6",
+            "target": "10.30535/mto.25.3.3"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.30.3.6",
+            "target": "10.30535/mto.25.2.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.3.6",
+            "target": "10.30535/mto.23.1.6"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.2.10",
+            "target": "10.30535/mto.22.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.2.10",
+            "target": "10.30535/mto.16.4.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.2.10",
+            "target": "Roeder2001Pulse_Streams_and"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.24.2.3",
+            "target": "10.30535/mto.29.2.3"
+        },
+        {
+            "weight": 0.25,
+            "source": "Ewell2012Rethinking_Octatonicism:_Views",
+            "target": "Ewell2013\u201cOn_the_System"
+        },
+        {
+            "weight": 0.25,
+            "source": "Ewell2012Rethinking_Octatonicism:_Views",
+            "target": "10.30535/mto.25.4.4"
+        },
+        {
+            "weight": 0.25,
+            "source": "Ewell2012Rethinking_Octatonicism:_Views",
+            "target": "10.30535/mto.26.2.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.23.2.3",
+            "target": "Cramer2003The_Harmonic_Function"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.23.2.3",
+            "target": "10.30535/mto.17.2.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.1.7",
+            "target": "10.30535/mto.14.2.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.1.7",
+            "target": "10.30535/mto.15.5.1"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.27.1.7",
+            "target": "10.30535/mto.23.4.8"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.27.1.7",
+            "target": "Maler2013Songs_for_Hands:"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.1",
+            "target": "10.30535/mto.23.4.5"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.1",
+            "target": "10.30535/mto.25.3.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.18.4.3",
+            "target": "Samarotto2009\u201cPlays_of_Opposing"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.18.4.3",
+            "target": "10.30535/mto.26.3.2"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.18.4.3",
+            "target": "Goldenberg2006A_Musical_Gesture"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.1.4",
+            "target": "10.30535/mto.26.2.4"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.28.1.4",
+            "target": "10.30535/mto.20.1.1"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.26.3.4",
+            "target": "10.30535/mto.30.4.5"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.4.5",
+            "target": "10.30535/mto.29.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.1.2",
+            "target": "10.30535/mto.28.4.1"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.30.1.2",
+            "target": "10.30535/mto.27.4.4"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.30.1.2",
+            "target": "10.30535/mto.22.3.3"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.30.1.2",
+            "target": "10.30535/mto.23.3.4"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.20.4.1",
+            "target": "BaileyShea2007Filleted_Mignon:_A"
+        },
+        {
+            "weight": 1.25,
+            "source": "Roeder2009Introduction",
+            "target": "Roeder2009A_Transformational_Space"
+        },
+        {
+            "weight": 0.25,
+            "source": "Roeder2009Introduction",
+            "target": "Roeder2009Constructing_Transformational_Signification:"
+        },
+        {
+            "weight": 0.25,
+            "source": "Roeder2009Introduction",
+            "target": "Lind2009Transformational_Distance_and"
+        },
+        {
+            "weight": 0.25,
+            "source": "Roeder2009Introduction",
+            "target": "Roeder2001Pulse_Streams_and"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.28.1.6",
+            "target": "Murphy2016Cohn\u2019s_Platonic_Model"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.28.1.6",
+            "target": "Murphy2007Considering_Network_Recursion"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.28.1.6",
+            "target": "10.30535/mto.12.2.2."
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.5",
+            "target": "10.30535/mto.24.1.4"
+        },
+        {
+            "weight": 0.25,
+            "source": "Guerrero2007Francesco\u2019s_Dream:_",
+            "target": "Guerrero2006Serial_Intervention_in"
+        },
+        {
+            "weight": 1.0,
+            "source": "Johnston2014Modal_Idioms_and",
+            "target": "Ewell2013\u201cOn_the_System"
+        },
+        {
+            "weight": 1.0,
+            "source": "Johnston2014Modal_Idioms_and",
+            "target": "Rothstein2008Common-tone_Tonality_in"
+        },
+        {
+            "weight": 0.25,
+            "source": "Johnston2014Modal_Idioms_and",
+            "target": "10.30535/mto.18.2.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "Quaglia2015Planning_for_Student",
+            "target": "Duker2015Hacking_the_Music"
+        },
+        {
+            "weight": 0.25,
+            "source": "Malawey2010Harmonic_Stasis_and",
+            "target": "Malawey2014Strophic_Modification_in"
+        },
+        {
+            "weight": 1.0,
+            "source": "Townsend2012Scriabin_and_the",
+            "target": "Kallis2008Principles_of_Pitch"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.8",
+            "target": "10.30535/mto.19.3.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.8",
+            "target": "10.30535/mto.22.3.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.8",
+            "target": "10.30535/mto.23.3.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.8",
+            "target": "10.30535/mto.26.3.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.8",
+            "target": "Moore2005The_Persona-Environment_Relation"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.8",
+            "target": "10.30535/mto.28.2.9"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.8",
+            "target": "10.30535/mto.17.1.8"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.28.3.8",
+            "target": "10.30535/mto.28.4.6"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.28.3.8",
+            "target": "Nobile2013Interval_Permutations"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.2.3",
+            "target": "10.30535/mto.20.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.2.3",
+            "target": "10.30535/mto.12.4.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.2.3",
+            "target": "10.30535/mto.22.3.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.2.3",
+            "target": "10.30535/mto.23.3.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.2.3",
+            "target": "10.30535/mto.21.1.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.2.3",
+            "target": "10.30535/mto.27.1.3"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.30.2.3",
+            "target": "10.30535/mto.28.4.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.2.3",
+            "target": "10.30535/mto.27.1.5"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.2.3",
+            "target": "10.30535/mto.28.3.8"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.2.3",
+            "target": "10.30535/mto.28.2.9"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.2.3",
+            "target": "10.30535/mto.26.2.4"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.29.2.3",
+            "target": "10.30535/mto.24.2.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.23.1.4",
+            "target": "Diergarten2008\u201cAt_times_even"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.23.1.4",
+            "target": "Mastic2015Normative_Wit:_Haydn\u2019s"
+        },
+        {
+            "weight": 0.25,
+            "source": "Schmalfeldt2010One_More_Time",
+            "target": "Schmalfeldt2010Response_to_Reddick"
+        },
+        {
+            "weight": 0.25,
+            "source": "Schmalfeldt2010One_More_Time",
+            "target": "Schmalfeldt2010Response_to_Mike"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.12.4.2",
+            "target": "Butterfield2010Variant_Timekeeping_Patterns"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.23.3.4",
+            "target": "10.30535/mto.22.3.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.23.3.4",
+            "target": "10.30535/mto.23.2.2"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.23.3.4",
+            "target": "10.30535/mto.27.4.4"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.23.3.4",
+            "target": "10.30535/mto.30.1.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.17.4.3",
+            "target": "Everett2004Making_Sense_of"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.17.4.3",
+            "target": "10.30535/mto.17.1.8"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.17.4.3",
+            "target": "10.30535/mto.23.1.7"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.17.4.3",
+            "target": "10.30535/mto.25.2.5"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.23.3.6",
+            "target": "Everett2004Making_Sense_of"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.23.3.6",
+            "target": "10.30535/mto.23.2.2"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.23.3.6",
+            "target": "10.30535/mto.22.1.3."
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.19.4.2",
+            "target": "10.30535/mto.12.2.2."
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.19.4.2",
+            "target": "Sayrs2003Narrative,_Metaphor,_and"
+        },
+        {
+            "weight": 1.0,
+            "source": "Roeder2009Constructing_Transformational_Signification:",
+            "target": "Buchler2007Reconsidering_Klumpenhouwer_Networks"
+        },
+        {
+            "weight": 1.0,
+            "source": "Roeder2009Constructing_Transformational_Signification:",
+            "target": "Reed2007A_Tetrahelix_Animates"
+        },
+        {
+            "weight": 1.0,
+            "source": "Roeder2009Constructing_Transformational_Signification:",
+            "target": "Scotto2002Transformational_Networks,_Transpositional"
+        },
+        {
+            "weight": 0.25,
+            "source": "Roeder2009Constructing_Transformational_Signification:",
+            "target": "Roeder2009Introduction"
+        },
+        {
+            "weight": 0.25,
+            "source": "Roeder2009Constructing_Transformational_Signification:",
+            "target": "Lind2009Transformational_Distance_and"
+        },
+        {
+            "weight": 0.25,
+            "source": "Roeder2009Constructing_Transformational_Signification:",
+            "target": "Roeder2009A_Transformational_Space"
+        },
+        {
+            "weight": 0.25,
+            "source": "Roeder2009Constructing_Transformational_Signification:",
+            "target": "Roeder2001Pulse_Streams_and"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.2.5",
+            "target": "10.30535/mto.26.2.9"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.30.2.5",
+            "target": "Neidh\u00f6fer2007Bruno_Maderna\u2019s_Serial"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.24.1.1",
+            "target": "Ewell2012Rethinking_Octatonicism:_Views"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.24.1.1",
+            "target": "10.30535/mto.30.4.5"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.2.6",
+            "target": "10.30535/mto.27.4.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.2.6",
+            "target": "Everett2004Making_Sense_of"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.2.6",
+            "target": "10.30535/mto.23.4.6"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.23.1.7",
+            "target": "Everett2004Making_Sense_of"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.23.1.7",
+            "target": "10.30535/mto.16.3.2"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.23.1.7",
+            "target": "10.30535/mto.17.4.3"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.23.1.7",
+            "target": "10.30535/mto.17.1.8"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.23.1.7",
+            "target": "10.30535/mto.25.2.5"
+        },
+        {
+            "weight": 0.25,
+            "source": "Sallmen2007Listening_to_the",
+            "target": "Sallmen2011Exploring_Tetrachordal_Voice-Leading"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.1.3",
+            "target": "10.30535/mto.20.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.1.3",
+            "target": "10.30535/mto.22.3.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.1.3",
+            "target": "10.30535/mto.21.1.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.1.3",
+            "target": "10.30535/mto.24.3.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.1.3",
+            "target": "10.30535/mto.25.1.5"
+        },
+        {
+            "weight": 0.25,
+            "source": "Samarotto2009\u201cPlays_of_Opposing",
+            "target": "Samarotto2004Sublimating_Sharp_<math><mover><mn>4</mn><mo>\u0302</mo></mover></math>:"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.23.2.1",
+            "target": "10.30535/mto.30.2.7"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.14.2.3",
+            "target": "10.30535/mto.22.3.1"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.14.2.3",
+            "target": "10.30535/mto.26.2.1"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.14.2.3",
+            "target": "10.30535/mto.15.5.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.23.1.6",
+            "target": "Salley2015On_Duration_and"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.2.5",
+            "target": "10.30535/mto.20.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.2.5",
+            "target": "10.30535/mto.22.3.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.2.5",
+            "target": "10.30535/mto.19.2.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.4.6",
+            "target": "10.30535/mto.24.3.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.21.2.5",
+            "target": "Blake2012Timbre_as_Differentiation"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.21.2.5",
+            "target": "Everett2004Making_Sense_of"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.21.2.5",
+            "target": "10.30535/mto.15.5.4"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.21.2.5",
+            "target": "Heetderks2011A_Tonal_Revolution"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.21.2.5",
+            "target": "10.30535/mto.26.1.3"
+        },
+        {
+            "weight": 0.25,
+            "source": "McCreless2011Ownership,_In_Music",
+            "target": "McCreless1996Contemporary_Music_Theory"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.24.3.3",
+            "target": "10.30535/mto.27.1.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "Marion2007Debussy_and_Recollection:",
+            "target": "Rothgeb1995The_Tristan_Chord:"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.1.5",
+            "target": "10.30535/mto.17.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.1.5",
+            "target": "10.30535/mto.23.3.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.1.5",
+            "target": "10.30535/mto.21.1.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.1.5",
+            "target": "10.30535/mto.24.3.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "Murphy2016Cohn\u2019s_Platonic_Model",
+            "target": "10.30535/mto.20.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "Murphy2016Cohn\u2019s_Platonic_Model",
+            "target": "10.30535/mto.22.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "Murphy2016Cohn\u2019s_Platonic_Model",
+            "target": "Gotham2015Meter_Metrics:_Characterizing"
+        },
+        {
+            "weight": 1.0,
+            "source": "Murphy2016Cohn\u2019s_Platonic_Model",
+            "target": "Hesselink2013Radiohead\u2019s_\u201cPyramid_Song\u201d:"
+        },
+        {
+            "weight": 1.0,
+            "source": "Murphy2016Cohn\u2019s_Platonic_Model",
+            "target": "10.30535/mto.19.4.2"
+        },
+        {
+            "weight": 0.25,
+            "source": "Murphy2016Cohn\u2019s_Platonic_Model",
+            "target": "Murphy2007Considering_Network_Recursion"
+        },
+        {
+            "weight": 0.25,
+            "source": "Murphy2016Cohn\u2019s_Platonic_Model",
+            "target": "10.30535/mto.28.1.6"
+        },
+        {
+            "weight": 0.25,
+            "source": "Murphy2016Cohn\u2019s_Platonic_Model",
+            "target": "10.30535/mto.12.2.2."
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.4.1",
+            "target": "Burns2004Authenticity,_Appropriation,_Signification:"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.4.1",
+            "target": "10.30535/mto.22.1.2"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.28.4.1",
+            "target": "10.30535/mto.30.1.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "Auerbach2010Pedagogical_Applications_of",
+            "target": "Urista2003Beyond_Words:_The"
+        },
+        {
+            "weight": 1.0,
+            "source": "Bakulina2017Canons_as_Hypermetrical",
+            "target": "Love2015Historical_Hypermetrical_Hearing:"
+        },
+        {
+            "weight": 0.25,
+            "source": "Urista2007Chopin\u2019s_Prelude_in",
+            "target": "Urista2003Beyond_Words:_The"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.22.4.2",
+            "target": "10.30535/mto.28.3.4"
+        },
+        {
+            "weight": 1.25,
+            "source": "Samplaski2005Mapping_the_Geometries",
+            "target": "Samplaski2004Interval-Classes_and_Psychological"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.21.1.3",
+            "target": "10.30535/mto.20.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.21.1.3",
+            "target": "10.30535/mto.17.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.21.1.3",
+            "target": "10.30535/mto.19.2.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.22.4.4",
+            "target": "Gotham2016Pitch_Properties_of"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.22.4.4",
+            "target": "Wild2014Genus,_Species_and"
+        },
+        {
+            "weight": 0.25,
+            "source": "Agmon1996Beethoven\u2019s_Op._81a",
+            "target": "10.30535/mto.29.2.1"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.30.4.5",
+            "target": "10.30535/mto.21.2.3"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.30.4.5",
+            "target": "Bourne2016Perceiving_Irony_in"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.30.4.5",
+            "target": "10.30535/mto.26.3.4"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.30.4.5",
+            "target": "10.30535/mto.24.1.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.1.8",
+            "target": "10.30535/mto.26.2.10"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.28.1.8",
+            "target": "Reenan2016Types_and_Applications"
+        },
+        {
+            "weight": 0.25,
+            "source": "Salley2021Late_Night_Thoughts",
+            "target": "Salley2015On_Duration_and"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.16.3.2",
+            "target": "10.30535/mto.26.4.8"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.1.2",
+            "target": "10.30535/mto.19.3.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.21.3.7",
+            "target": "10.30535/mto.17.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.21.3.7",
+            "target": "Urista2003Beyond_Words:_The"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.21.3.7",
+            "target": "10.30535/mto.27.2.11"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.30.1.3",
+            "target": "10.30535/mto.28.4.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.2.4",
+            "target": "Attas2009Metaphors_in_Motion:"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.2.4",
+            "target": "10.30535/mto.14.2.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.2.4",
+            "target": "Heetderks2011A_Tonal_Revolution"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.2.4",
+            "target": "10.30535/mto.23.1.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.2.4",
+            "target": "Roeder2009Constructing_Transformational_Signification:"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.25.2.4",
+            "target": "10.30535/mto.30.3.6"
+        },
+        {
+            "weight": 0.25,
+            "source": "Atkinson2011Canons,_Augmentations,_and",
+            "target": "10.30535/mto.25.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.22.2.1",
+            "target": "10.30535/mto.20.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.22.2.1",
+            "target": "Gotham2015Meter_Metrics:_Characterizing"
+        },
+        {
+            "weight": 1.0,
+            "source": "Clement2015Scale_Systems_and",
+            "target": "10.30535/mto.17.4.3"
+        },
+        {
+            "weight": 0.25,
+            "source": "Heetderks2011A_Tonal_Revolution",
+            "target": "10.30535/mto.21.2.5"
+        },
+        {
+            "weight": 0.25,
+            "source": "Heetderks2011A_Tonal_Revolution",
+            "target": "10.30535/mto.26.1.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.1.5",
+            "target": "10.30535/mto.21.1.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.1.5",
+            "target": "Everett2004Making_Sense_of"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.27.4.4",
+            "target": "10.30535/mto.22.3.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.4.4",
+            "target": "10.30535/mto.25.4.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.4.4",
+            "target": "10.30535/mto.21.1.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.4.4",
+            "target": "Everett2004Making_Sense_of"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.4.4",
+            "target": "10.30535/mto.23.4.6"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.4.4",
+            "target": "10.30535/mto.21.2.5"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.4.4",
+            "target": "10.30535/mto.23.3.6"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.4.4",
+            "target": "10.30535/mto.23.2.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.4.4",
+            "target": "10.30535/mto.17.1.8"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.4.4",
+            "target": "10.30535/mto.17.4.3"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.27.4.4",
+            "target": "10.30535/mto.30.1.2"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.27.4.4",
+            "target": "10.30535/mto.23.3.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.3",
+            "target": "10.30535/mto.21.3.7"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.3",
+            "target": "10.30535/mto.26.4.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.3",
+            "target": "10.30535/mto.18.4.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.3",
+            "target": "10.30535/mto.17.1.8"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.28.3.3",
+            "target": "10.30535/mto.30.1.8"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.23.3.2",
+            "target": "Roeder2009Constructing_Transformational_Signification:"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.4.6",
+            "target": "10.30535/mto.20.4.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.4.6",
+            "target": "10.30535/mto.28.4.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.4.6",
+            "target": "10.30535/mto.22.1.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.4.6",
+            "target": "10.30535/mto.26.3.3"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.28.4.6",
+            "target": "10.30535/mto.28.3.8"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.4.6",
+            "target": "10.30535/mto.28.2.7"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.4.6",
+            "target": "10.30535/mto.28.2.10"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.28.4.6",
+            "target": "Nobile2013Interval_Permutations"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.20.2.1",
+            "target": "10.30535/mto.12.4.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.20.2.1",
+            "target": "10.30535/mto.19.2.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.20.2.1",
+            "target": "Rusch2013Crossing_Over_with"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.20.2.1",
+            "target": "10.30535/mto.30.1.8"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.20.2.1",
+            "target": "10.30535/mto.14.2.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.4.2",
+            "target": "10.30535/mto.15.5.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.4.2",
+            "target": "10.30535/mto.20.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.4.2",
+            "target": "10.30535/mto.22.3.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.4.2",
+            "target": "10.30535/mto.23.3.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.4.2",
+            "target": "10.30535/mto.27.4.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.4.2",
+            "target": "10.30535/mto.27.1.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.4.2",
+            "target": "10.30535/mto.25.1.5"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.4.2",
+            "target": "10.30535/mto.23.3.6"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.4.2",
+            "target": "10.30535/mto.17.1.8"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.28.4.2",
+            "target": "10.30535/mto.30.2.3"
+        },
+        {
+            "weight": 0.25,
+            "source": "Lind2009An_Interactive_Trichord",
+            "target": "Lind2009Transformational_Distance_and"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.1.1",
+            "target": "10.30535/mto.24.3.4"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.28.2.5",
+            "target": "10.30535/mto.26.2.8"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.4.1",
+            "target": "Cramer2003The_Harmonic_Function"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.4.1",
+            "target": "Davis2011Stream_Segregation_and"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.4.1",
+            "target": "10.30535/mto.17.2.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.4.1",
+            "target": "Straus2012Three_Stravinsky_Analyses:"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.4.1",
+            "target": "10.30535/mto.23.2.3"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.25.4.1",
+            "target": "10.30535/mto.27.1.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.2.1",
+            "target": "10.30535/mto.14.2.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.2.1",
+            "target": "Everett2004Making_Sense_of"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.2.1",
+            "target": "10.30535/mto.23.4.6"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.2.1",
+            "target": "10.30535/mto.21.2.5"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.2.1",
+            "target": "10.30535/mto.23.2.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.2.1",
+            "target": "10.30535/mto.23.1.7"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.28.2.1",
+            "target": "Aziz2015The_Evolution_of"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.30.4.3",
+            "target": "10.30535/mto.29.1.4"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.25.4.4",
+            "target": "Ewell2012Rethinking_Octatonicism:_Views"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.25.4.4",
+            "target": "Ewell2013\u201cOn_the_System"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.25.4.4",
+            "target": "10.30535/mto.26.2.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.2.4",
+            "target": "10.30535/mto.15.5.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.2.4",
+            "target": "10.30535/mto.22.3.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.2.4",
+            "target": "10.30535/mto.26.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.2.4",
+            "target": "10.2307/763915"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.2.4",
+            "target": "10.30535/mto.27.1.7"
+        },
+        {
+            "weight": 0.25,
+            "source": "Schmalfeldt2010Response_to_Reddick",
+            "target": "Schmalfeldt2010One_More_Time"
+        },
+        {
+            "weight": 0.25,
+            "source": "Schmalfeldt2010Response_to_Reddick",
+            "target": "Schmalfeldt2010Response_to_Mike"
+        },
+        {
+            "weight": 1.0,
+            "source": "Wells2017A_Generalized_Intervallic",
+            "target": "10.30535/mto.16.4.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "Wells2017A_Generalized_Intervallic",
+            "target": "Roeder2001Pulse_Streams_and"
+        },
+        {
+            "weight": 0.25,
+            "source": "Dineen2002Figured_Bass_and",
+            "target": "Dineen2013Species_Counterpoint_with"
+        },
+        {
+            "weight": 1.0,
+            "source": "Parsons2015Dyslexia_and_Post-Secondary",
+            "target": "Callahan2015Teaching_and_Learning"
+        },
+        {
+            "weight": 1.0,
+            "source": "Parsons2015Dyslexia_and_Post-Secondary",
+            "target": "Quaglia2015Planning_for_Student"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.22.1.2",
+            "target": "Blake2012Timbre_as_Differentiation"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.22.1.2",
+            "target": "10.30535/mto.17.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.22.1.2",
+            "target": "10.30535/mto.19.4.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.18.4.4",
+            "target": "10.30535/mto.17.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.3.1",
+            "target": "10.30535/mto.15.5.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.3.1",
+            "target": "10.30535/mto.23.3.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.3.1",
+            "target": "10.30535/mto.27.4.5"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.3.1",
+            "target": "10.30535/mto.23.4.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.3.1",
+            "target": "10.30535/mto.22.3.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.3.1",
+            "target": "10.30535/mto.18.4.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.3.1",
+            "target": "10.30535/mto.24.4.4"
+        },
+        {
+            "weight": 0.25,
+            "source": "Roeder2001Pulse_Streams_and",
+            "target": "Roeder2009Introduction"
+        },
+        {
+            "weight": 0.25,
+            "source": "Roeder2001Pulse_Streams_and",
+            "target": "Roeder2009Constructing_Transformational_Signification:"
+        },
+        {
+            "weight": 0.25,
+            "source": "Roeder2001Pulse_Streams_and",
+            "target": "Lind2009Transformational_Distance_and"
+        },
+        {
+            "weight": 0.25,
+            "source": "Roeder2001Pulse_Streams_and",
+            "target": "Roeder2009A_Transformational_Space"
+        },
+        {
+            "weight": 0.25,
+            "source": "Reenan2016Types_and_Applications",
+            "target": "10.30535/mto.28.1.8"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.2.7",
+            "target": "Garcia2005On_and_On:"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.23.4.8",
+            "target": "10.30535/mto.14.2.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.23.4.8",
+            "target": "10.30535/mto.15.5.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.23.4.8",
+            "target": "10.30535/mto.22.3.1"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.23.4.8",
+            "target": "10.30535/mto.27.1.7"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.2.3",
+            "target": "Yust2015Voice-Leading_Transformation_and"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.23.4.7",
+            "target": "10.30535/mto.23.1.6"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.23.4.7",
+            "target": "Straus2012Three_Stravinsky_Analyses:"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.26.3.1",
+            "target": "Andersen2017\u201cWhat_can_they"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.23.4.3",
+            "target": "10.30535/mto.25.4.3"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.23.4.3",
+            "target": "10.30535/mto.27.4.5"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.23.4.3",
+            "target": "10.30535/mto.30.1.8"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.24.1.2",
+            "target": "10.30535/mto.19.3.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.24.1.2",
+            "target": "Burns2008Embodied_Subjectivities_in"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.30.2.2",
+            "target": "10.30535/mto.27.2.9"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.2.2",
+            "target": "10.30535/mto.28.2.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.2.2",
+            "target": "10.30535/mto.23.4.7"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.22.4.5",
+            "target": "10.30535/mto.20.4.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.22.4.5",
+            "target": "10.30535/mto.20.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.22.4.5",
+            "target": "10.30535/mto.19.3.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.22.4.5",
+            "target": "10.30535/mto.22.1.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.22.4.5",
+            "target": "10.30535/mto.19.4.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.2.10",
+            "target": "10.30535/mto.14.2.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.2.10",
+            "target": "10.30535/mto.15.5.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.2.10",
+            "target": "10.30535/mto.22.1.2"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.27.1.4",
+            "target": "10.30535/mto.24.3.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.2.2",
+            "target": "10.30535/mto.21.1.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.1.1",
+            "target": "10.30535/mto.19.3.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.1.1",
+            "target": "10.30535/mto.23.4.7"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.1.5",
+            "target": "10.30535/mto.27.4.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.4.4",
+            "target": "10.30535/mto.23.2.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.1.3",
+            "target": "10.30535/mto.20.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.1.3",
+            "target": "10.30535/mto.27.1.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.1.3",
+            "target": "10.30535/mto.27.1.5"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.1.3",
+            "target": "10.30535/mto.24.3.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.1.3",
+            "target": "10.30535/mto.19.2.2"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.26.2.8",
+            "target": "10.30535/mto.28.2.5"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.19.3.2",
+            "target": "Callahan2015Teaching_and_Learning"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.2.6",
+            "target": "10.30535/mto.14.2.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.2.6",
+            "target": "10.30535/mto.15.5.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.2.6",
+            "target": "10.30535/mto.27.4.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.2.6",
+            "target": "10.30535/mto.22.1.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.2.6",
+            "target": "Li2021Cantopop_and_Speech-Melody"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.2.6",
+            "target": "10.30535/mto.21.3.9"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.2.6",
+            "target": "10.30535/mto.22.4.5"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.9",
+            "target": "10.30535/mto.19.3.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.9",
+            "target": "10.30535/mto.24.1.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.9",
+            "target": "10.30535/mto.23.3.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.9",
+            "target": "Burns2004Authenticity,_Appropriation,_Signification:"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.9",
+            "target": "Holm-Hudson2002Your_Guitar,_It"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.4.5",
+            "target": "10.30535/mto.17.4.1"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.27.4.5",
+            "target": "10.30535/mto.25.4.3"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.27.4.5",
+            "target": "10.30535/mto.30.1.8"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.27.4.5",
+            "target": "10.30535/mto.23.4.3"
+        },
+        {
+            "weight": 0.25,
+            "source": "Amiot2015Old_and_New",
+            "target": "Amiot2009Discrete_Fourier_Transform"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.3.8",
+            "target": "10.30535/mto.28.3.6"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.29.3.8",
+            "target": "10.30535/mto.28.1.9"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.29.3.8",
+            "target": "10.30535/mto.30.1.8"
+        },
+        {
+            "weight": 1.0,
+            "source": "Sallmen2011Exploring_Tetrachordal_Voice-Leading",
+            "target": "Childs2006Structural_and_Transformational"
+        },
+        {
+            "weight": 1.0,
+            "source": "Sallmen2011Exploring_Tetrachordal_Voice-Leading",
+            "target": "Cook2009Moving_Through_Triadic"
+        },
+        {
+            "weight": 1.0,
+            "source": "Sallmen2011Exploring_Tetrachordal_Voice-Leading",
+            "target": "Klumpenhouwer1994Some_Remarks_on"
+        },
+        {
+            "weight": 1.0,
+            "source": "Sallmen2011Exploring_Tetrachordal_Voice-Leading",
+            "target": "10.30535/mto.15.5.4"
+        },
+        {
+            "weight": 0.25,
+            "source": "Sallmen2011Exploring_Tetrachordal_Voice-Leading",
+            "target": "Sallmen2007Listening_to_the"
+        },
+        {
+            "weight": 0.25,
+            "source": "Samplaski2004Interval-Classes_and_Psychological",
+            "target": "Samplaski2005Mapping_the_Geometries"
+        },
+        {
+            "weight": 1.0,
+            "source": "Maler2013Songs_for_Hands:",
+            "target": "10.30535/mto.15.5.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "Maler2013Songs_for_Hands:",
+            "target": "10.30535/mto.15.5.2"
+        },
+        {
+            "weight": 0.25,
+            "source": "Maler2013Songs_for_Hands:",
+            "target": "10.30535/mto.27.1.7"
+        },
+        {
+            "weight": 1.0,
+            "source": "Bourne2016Perceiving_Irony_in",
+            "target": "Everett2004Making_Sense_of"
+        },
+        {
+            "weight": 1.25,
+            "source": "Bourne2016Perceiving_Irony_in",
+            "target": "10.30535/mto.21.2.3"
+        },
+        {
+            "weight": 0.25,
+            "source": "Bourne2016Perceiving_Irony_in",
+            "target": "10.30535/mto.30.4.5"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.6",
+            "target": "10.30535/mto.25.4.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.6",
+            "target": "10.30535/mto.27.1.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.6",
+            "target": "10.30535/mto.26.2.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.6",
+            "target": "10.30535/mto.17.2.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.6",
+            "target": "10.30535/mto.24.3.5"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.30.1.8",
+            "target": "10.30535/mto.20.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.1.8",
+            "target": "10.30535/mto.28.4.1"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.30.1.8",
+            "target": "10.30535/mto.25.4.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.1.8",
+            "target": "10.30535/mto.26.2.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.1.8",
+            "target": "10.30535/mto.27.1.5"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.1.8",
+            "target": "10.30535/mto.28.1.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.1.8",
+            "target": "10.30535/mto.17.1.8"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.30.1.8",
+            "target": "10.30535/mto.27.4.5"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.30.1.8",
+            "target": "10.30535/mto.23.4.3"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.30.1.8",
+            "target": "10.30535/mto.14.2.2"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.30.1.8",
+            "target": "10.30535/mto.28.3.3"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.30.1.8",
+            "target": "10.30535/mto.28.1.9"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.30.1.8",
+            "target": "10.30535/mto.29.3.8"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.30.1.8",
+            "target": "10.30535/mto.24.2.4"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.28.4.7",
+            "target": "10.30535/mto.27.4.9"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.28.4.7",
+            "target": "10.30535/mto.24.1.4"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.28.4.7",
+            "target": "Schubert2013What_Modular_Analysis"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.28.4.7",
+            "target": "Guido2014Unpacking_the_Box"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.1.1",
+            "target": "10.30535/mto.23.1.6"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.16.4.3",
+            "target": "10.30535/mto.16.4.4."
+        },
+        {
+            "weight": 1.0,
+            "source": "Blake2012Timbre_as_Differentiation",
+            "target": "10.30535/mto.17.1.8"
+        },
+        {
+            "weight": 0.25,
+            "source": "Lind2009Transformational_Distance_and",
+            "target": "Roeder2009Introduction"
+        },
+        {
+            "weight": 0.25,
+            "source": "Lind2009Transformational_Distance_and",
+            "target": "Roeder2009Constructing_Transformational_Signification:"
+        },
+        {
+            "weight": 0.25,
+            "source": "Lind2009Transformational_Distance_and",
+            "target": "Roeder2009A_Transformational_Space"
+        },
+        {
+            "weight": 0.25,
+            "source": "Lind2009Transformational_Distance_and",
+            "target": "Roeder2001Pulse_Streams_and"
+        },
+        {
+            "weight": 0.25,
+            "source": "Lind2009Transformational_Distance_and",
+            "target": "Lind2009An_Interactive_Trichord"
+        },
+        {
+            "weight": 0.25,
+            "source": "Rusch2013Beyond_Homage_and",
+            "target": "Rusch2013Crossing_Over_with"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.1.1",
+            "target": "10.30535/mto.12.2.2."
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.1.1",
+            "target": "10.30535/mto.22.1.3."
+        },
+        {
+            "weight": 1.25,
+            "source": "Ewell2013\u201cOn_the_System",
+            "target": "Ewell2012Rethinking_Octatonicism:_Views"
+        },
+        {
+            "weight": 0.25,
+            "source": "Ewell2013\u201cOn_the_System",
+            "target": "10.30535/mto.25.4.4"
+        },
+        {
+            "weight": 0.25,
+            "source": "Ewell2013\u201cOn_the_System",
+            "target": "10.30535/mto.26.2.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.4.5",
+            "target": "10.30535/mto.23.3.6"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.4.5",
+            "target": "10.30535/mto.17.1.8"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.3.3",
+            "target": "10.30535/mto.28.1.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "Clarke2017North_Indian_Classical",
+            "target": "Schachter2015Structural_Levels_in"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.24.4.6",
+            "target": "10.30535/mto.21.1.4"
+        },
+        {
+            "weight": 1.25,
+            "source": "Butterfield2010Variant_Timekeeping_Patterns",
+            "target": "10.30535/mto.12.4.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "Burns2010Rhythmic_Archetypes_in",
+            "target": "10.30535/mto.16.4.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.20.1.1",
+            "target": "10.30535/mto.16.4.3"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.20.1.1",
+            "target": "10.30535/mto.16.4.4."
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.20.1.1",
+            "target": "10.30535/mto.28.1.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.24.3.4",
+            "target": "10.30535/mto.20.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.24.3.4",
+            "target": "Goehr2015Does_it_Matter"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.24.3.4",
+            "target": "Scherzinger2010Temporal_Geometries_of"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.24.3.4",
+            "target": "10.30535/mto.27.4.8"
+        },
+        {
+            "weight": 1.0,
+            "source": "Stankis2015Maurice_Ravel\u2019s_\u201cColor",
+            "target": "10.30535/mto.17.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "Stankis2015Maurice_Ravel\u2019s_\u201cColor",
+            "target": "10.30535/mto.19.1.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.3.1",
+            "target": "10.30535/mto.14.2.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.3.1",
+            "target": "10.30535/mto.22.3.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.3.1",
+            "target": "Blake2012Timbre_as_Differentiation"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.3.1",
+            "target": "10.30535/mto.19.3.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.3.1",
+            "target": "Everett2004Making_Sense_of"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.3.1",
+            "target": "10.30535/mto.22.1.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.3.1",
+            "target": "10.30535/mto.21.2.5"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.3.1",
+            "target": "Malawey2010Harmonic_Stasis_and"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.3.1",
+            "target": "10.30535/mto.23.2.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.20.2.5",
+            "target": "Buchler2007Reconsidering_Klumpenhouwer_Networks"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.20.2.5",
+            "target": "10.30535/mto.28.4.8"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.20.2.5",
+            "target": "Straus2012Three_Stravinsky_Analyses:"
+        },
+        {
+            "weight": 0.25,
+            "source": "Straus2012Three_Stravinsky_Analyses:",
+            "target": "10.30535/mto.28.4.8"
+        },
+        {
+            "weight": 0.25,
+            "source": "Straus2012Three_Stravinsky_Analyses:",
+            "target": "10.30535/mto.20.2.5"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.1.3",
+            "target": "Childs2006Structural_and_Transformational"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.1.3",
+            "target": "Jenkins2010After_the_Harvest:"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.25.1.3",
+            "target": "Roeder2009A_Transformational_Space"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.2.12",
+            "target": "10.30535/mto.20.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.2.12",
+            "target": "10.30535/mto.23.4.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.2.12",
+            "target": "10.30535/mto.21.1.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.2.12",
+            "target": "10.30535/mto.19.4.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.2.12",
+            "target": "10.30535/mto.12.2.2."
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.2.12",
+            "target": "10.30535/mto.22.1.3."
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.2.12",
+            "target": "10.30535/mto.15.5.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.2.12",
+            "target": "10.30535/mto.24.2.4"
+        },
+        {
+            "weight": 0.25,
+            "source": "Burns2004Authenticity,_Appropriation,_Signification:",
+            "target": "Burns2008Embodied_Subjectivities_in"
+        },
+        {
+            "weight": 0.25,
+            "source": "Burns2004Authenticity,_Appropriation,_Signification:",
+            "target": "Burns2005Feeling_the_Style:"
+        },
+        {
+            "weight": 0.25,
+            "source": "Burns2004Authenticity,_Appropriation,_Signification:",
+            "target": "10.30535/mto.29.4.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.4.4",
+            "target": "10.30535/mto.14.2.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.4.4",
+            "target": "10.30535/mto.26.3.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.4.4",
+            "target": "10.30535/mto.29.4.5"
+        },
+        {
+            "weight": 0.25,
+            "source": "Schubert2013What_Modular_Analysis",
+            "target": "10.30535/mto.28.4.7"
+        },
+        {
+            "weight": 0.25,
+            "source": "Schubert2013What_Modular_Analysis",
+            "target": "10.30535/mto.24.1.4"
+        },
+        {
+            "weight": 0.25,
+            "source": "Schubert2013What_Modular_Analysis",
+            "target": "10.30535/mto.27.4.9"
+        },
+        {
+            "weight": 0.25,
+            "source": "Schubert2013What_Modular_Analysis",
+            "target": "Guido2014Unpacking_the_Box"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.1.9",
+            "target": "10.30535/mto.20.2.5"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.28.1.9",
+            "target": "10.30535/mto.30.1.8"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.28.1.9",
+            "target": "10.30535/mto.29.3.8"
+        },
+        {
+            "weight": 0.25,
+            "source": "Covach1995Schoenberg\u2019s_Turn_to",
+            "target": "Covach1994Destructuring_Cartesian_Dualism"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.21.3.10",
+            "target": "Eckert2005\u201cSo,_you_want"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.21.3.10",
+            "target": "Guido2014Unpacking_the_Box"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.21.3.10",
+            "target": "10.30535/mto.21.2.3"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.21.3.10",
+            "target": "10.30535/mto.26.2.11"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.21.3.10",
+            "target": "10.30535/mto.30.1.7"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.21.3.10",
+            "target": "10.30535/mto.27.4.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.4.5",
+            "target": "10.30535/mto.19.1.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.4.5",
+            "target": "10.30535/mto.23.1.4"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.27.1.2",
+            "target": "10.30535/mto.25.4.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.1.2",
+            "target": "10.30535/mto.26.2.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.16.4.4.",
+            "target": "10.30535/mto.12.4.2"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.16.4.4.",
+            "target": "10.30535/mto.20.1.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "Robb2015Imagined,_Supplemental_Sound",
+            "target": "10.30535/mto.17.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "Robb2015Imagined,_Supplemental_Sound",
+            "target": "Urista2007Chopin\u2019s_Prelude_in"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.24.4.2",
+            "target": "Byros2015Prelude_on_a"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.27.4.2",
+            "target": "10.30535/mto.22.1.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.4.2",
+            "target": "10.30535/mto.26.2.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.4.2",
+            "target": "10.30535/mto.21.2.3"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.27.4.2",
+            "target": "10.30535/mto.26.2.11"
+        },
+        {
+            "weight": 0.5,
+            "source": "10.30535/mto.27.4.2",
+            "target": "10.30535/mto.30.1.7"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.27.4.2",
+            "target": "10.30535/mto.21.3.10"
+        },
+        {
+            "weight": 0.25,
+            "source": "Rodgers2011Thinking_(and_Singing)",
+            "target": "10.30535/mto.26.3.8"
+        },
+        {
+            "weight": 1.0,
+            "source": "Gotham2016Pitch_Properties_of",
+            "target": "10.30535/mto.22.2.1"
+        },
+        {
+            "weight": 0.25,
+            "source": "Gotham2016Pitch_Properties_of",
+            "target": "Gotham2015Meter_Metrics:_Characterizing"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.4.9",
+            "target": "10.30535/mto.25.1.2"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.27.4.9",
+            "target": "10.30535/mto.28.4.7"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.27.4.9",
+            "target": "10.30535/mto.24.1.4"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.27.4.9",
+            "target": "Schubert2013What_Modular_Analysis"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.27.4.9",
+            "target": "Guido2014Unpacking_the_Box"
+        },
+        {
+            "weight": 0.25,
+            "source": "Andersen2017\u201cWhat_can_they",
+            "target": "10.30535/mto.26.3.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "Hoag2011Brahms\u2019s_\u201cGreat_Tragic",
+            "target": "Samarotto2009\u201cPlays_of_Opposing"
+        },
+        {
+            "weight": 0.25,
+            "source": "Nobile2013Interval_Permutations",
+            "target": "10.30535/mto.28.4.6"
+        },
+        {
+            "weight": 0.25,
+            "source": "Nobile2013Interval_Permutations",
+            "target": "10.30535/mto.28.3.8"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.1.4",
+            "target": "10.30535/mto.7.1.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.1.4",
+            "target": "10.30535/mto.16.4.4."
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.1.4",
+            "target": "10.30535/mto.20.1.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.29.1.4",
+            "target": "Roeder2001Pulse_Streams_and"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.29.1.4",
+            "target": "10.30535/mto.30.4.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.1.4",
+            "target": "Kopp1995On_the_Function"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.1.4",
+            "target": "10.30535/mto.26.4.9"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.23.2.2",
+            "target": "Everett2004Making_Sense_of"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.23.2.2",
+            "target": "10.30535/mto.23.3.6"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.23.2.2",
+            "target": "10.30535/mto.17.4.3"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.29.2.1",
+            "target": "Agmon1996Beethoven\u2019s_Op._81a"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.25.2.1",
+            "target": "Atkinson2011Canons,_Augmentations,_and"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.26.3.2",
+            "target": "10.30535/mto.18.4.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.3.2",
+            "target": "10.30535/mto.22.1.3."
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.26.3.2",
+            "target": "Goldenberg2006A_Musical_Gesture"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.3.3",
+            "target": "Blake2012Timbre_as_Differentiation"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.3.3",
+            "target": "10.30535/mto.22.1.2"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.26.3.3",
+            "target": "10.30535/mto.29.1.2"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.4.8",
+            "target": "10.30535/mto.27.1.4"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.27.4.8",
+            "target": "10.30535/mto.24.3.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.4.8",
+            "target": "10.30535/mto.26.3.4"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.27.4.8",
+            "target": "10.30535/mto.25.1.5"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.22.3.3",
+            "target": "10.30535/mto.20.2.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.22.3.3",
+            "target": "10.30535/mto.19.2.2"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.22.3.3",
+            "target": "10.30535/mto.27.4.4"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.22.3.3",
+            "target": "10.30535/mto.30.1.2"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.22.3.3",
+            "target": "10.30535/mto.23.3.4"
+        },
+        {
+            "weight": 0.25,
+            "source": "Roeder2009A_Transformational_Space",
+            "target": "Roeder2009Introduction"
+        },
+        {
+            "weight": 0.25,
+            "source": "Roeder2009A_Transformational_Space",
+            "target": "Roeder2009Constructing_Transformational_Signification:"
+        },
+        {
+            "weight": 0.25,
+            "source": "Roeder2009A_Transformational_Space",
+            "target": "Lind2009Transformational_Distance_and"
+        },
+        {
+            "weight": 0.25,
+            "source": "Roeder2009A_Transformational_Space",
+            "target": "Roeder2001Pulse_Streams_and"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.28.3.4",
+            "target": "10.30535/mto.22.4.2"
+        },
+        {
+            "weight": 0.25,
+            "source": "Leydon2002Towards_a_Typology",
+            "target": "Leydon2012Clean_as_a"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.17.4.1",
+            "target": "Hook2007Why_Are_There"
+        },
+        {
+            "weight": 0.25,
+            "source": "Urista2003Beyond_Words:_The",
+            "target": "Urista2007Chopin\u2019s_Prelude_in"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.2.5",
+            "target": "Samarotto2009\u201cPlays_of_Opposing"
+        },
+        {
+            "weight": 1.25,
+            "source": "10.30535/mto.22.3.1",
+            "target": "10.30535/mto.14.2.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.22.3.1",
+            "target": "10.30535/mto.19.3.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.22.3.1",
+            "target": "Leydon2002Towards_a_Typology"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.22.3.1",
+            "target": "10.30535/mto.26.2.1"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.22.3.1",
+            "target": "10.30535/mto.15.5.1"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.29.3.3",
+            "target": "10.30535/mto.28.2.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.19.2.2",
+            "target": "10.30535/mto.7.1.1"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.19.2.2",
+            "target": "10.30535/mto.16.4.4."
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.19.2.2",
+            "target": "Roeder2001Pulse_Streams_and"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.4.8",
+            "target": "10.30535/mto.12.1.1"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.28.4.8",
+            "target": "10.30535/mto.20.2.5"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.28.4.8",
+            "target": "Straus2012Three_Stravinsky_Analyses:"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.28.3.2",
+            "target": "10.30535/mto.26.2.4"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.28.3.2",
+            "target": "Boss2015\u201cAway_with_Motivic"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.30.3.7",
+            "target": "10.30535/mto.28.4.4"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.24.4.5",
+            "target": "10.30535/mto.30.2.7"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.23.1.3",
+            "target": "10.30535/mto.14.2.2"
+        },
+        {
+            "weight": 0.25,
+            "source": "Rusch2013Crossing_Over_with",
+            "target": "Rusch2013Beyond_Homage_and"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.24.2.4",
+            "target": "10.30535/mto.30.1.8"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.21.1.4",
+            "target": "10.30535/mto.24.4.6"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.25.2.5",
+            "target": "10.30535/mto.17.1.8"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.25.2.5",
+            "target": "10.30535/mto.23.1.7"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.25.2.5",
+            "target": "10.30535/mto.17.4.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "Cubero2017Inwardness_and_Inner",
+            "target": "Samarotto2004Sublimating_Sharp_<math><mover><mn>4</mn><mo>\u0302</mo></mover></math>:"
+        },
+        {
+            "weight": 0.25,
+            "source": "Cubero2017Inwardness_and_Inner",
+            "target": "10.30535/mto.27.4.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.19.4.3",
+            "target": "Everett2004Making_Sense_of"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.2.11",
+            "target": "10.30535/mto.21.2.3"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.2.11",
+            "target": "Rusch2013Crossing_Over_with"
+        },
+        {
+            "weight": 1.0,
+            "source": "10.30535/mto.26.2.11",
+            "target": "10.30535/mto.24.4.5"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.26.2.11",
+            "target": "10.30535/mto.30.1.7"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.26.2.11",
+            "target": "10.30535/mto.21.3.10"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.26.2.11",
+            "target": "10.30535/mto.27.4.2"
+        },
+        {
+            "weight": 0.25,
+            "source": "Dineen2013Species_Counterpoint_with",
+            "target": "Dineen2002Figured_Bass_and"
+        }
+    ]
+}
