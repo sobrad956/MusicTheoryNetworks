@@ -1859,17 +1859,17 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.29.4.2",
+            "target": "Burns2005Feeling_the_Style:"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.29.4.2",
             "target": "Burns2004Authenticity,_Appropriation,_Signification:"
         },
         {
             "weight": 0.25,
             "source": "10.30535/mto.29.4.2",
             "target": "Burns2008Embodied_Subjectivities_in"
-        },
-        {
-            "weight": 0.25,
-            "source": "10.30535/mto.29.4.2",
-            "target": "Burns2005Feeling_the_Style:"
         },
         {
             "weight": 1.0,
@@ -1944,7 +1944,7 @@
         {
             "weight": 0.25,
             "source": "Guido2014Unpacking_the_Box",
-            "target": "10.30535/mto.28.4.7"
+            "target": "Schubert2013What_Modular_Analysis"
         },
         {
             "weight": 0.25,
@@ -1959,7 +1959,7 @@
         {
             "weight": 0.25,
             "source": "Guido2014Unpacking_the_Box",
-            "target": "Schubert2013What_Modular_Analysis"
+            "target": "10.30535/mto.28.4.7"
         },
         {
             "weight": 1.0,
@@ -1999,7 +1999,7 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.24.1.4",
-            "target": "10.30535/mto.28.4.7"
+            "target": "Schubert2013What_Modular_Analysis"
         },
         {
             "weight": 0.25,
@@ -2009,12 +2009,12 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.24.1.4",
-            "target": "Schubert2013What_Modular_Analysis"
+            "target": "Guido2014Unpacking_the_Box"
         },
         {
             "weight": 0.25,
             "source": "10.30535/mto.24.1.4",
-            "target": "Guido2014Unpacking_the_Box"
+            "target": "10.30535/mto.28.4.7"
         },
         {
             "weight": 0.25,
@@ -2029,22 +2029,17 @@
         {
             "weight": 0.25,
             "source": "Burns2005Feeling_the_Style:",
-            "target": "Burns2008Embodied_Subjectivities_in"
+            "target": "10.30535/mto.29.4.2"
         },
         {
             "weight": 0.25,
             "source": "Burns2005Feeling_the_Style:",
-            "target": "10.30535/mto.29.4.2"
+            "target": "Burns2008Embodied_Subjectivities_in"
         },
         {
             "weight": 1.0,
             "source": "10.30535/mto.17.1.8",
             "target": "Everett2004Making_Sense_of"
-        },
-        {
-            "weight": 0.25,
-            "source": "10.30535/mto.17.1.8",
-            "target": "10.30535/mto.23.1.7"
         },
         {
             "weight": 0.25,
@@ -2055,6 +2050,11 @@
             "weight": 0.25,
             "source": "10.30535/mto.17.1.8",
             "target": "10.30535/mto.25.2.5"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.17.1.8",
+            "target": "10.30535/mto.23.1.7"
         },
         {
             "weight": 1.25,
@@ -2094,7 +2094,7 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.26.2.4",
-            "target": "Ewell2013\u201cOn_the_System"
+            "target": "Ewell2012Rethinking_Octatonicism:_Views"
         },
         {
             "weight": 0.25,
@@ -2104,7 +2104,7 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.26.2.4",
-            "target": "Ewell2012Rethinking_Octatonicism:_Views"
+            "target": "Ewell2013\u201cOn_the_System"
         },
         {
             "weight": 1.25,
@@ -2344,12 +2344,12 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.21.2.3",
-            "target": "Bourne2016Perceiving_Irony_in"
+            "target": "10.30535/mto.30.4.5"
         },
         {
             "weight": 0.25,
             "source": "10.30535/mto.21.2.3",
-            "target": "10.30535/mto.30.4.5"
+            "target": "Bourne2016Perceiving_Irony_in"
         },
         {
             "weight": 1.0,
@@ -2452,7 +2452,7 @@
             "target": "10.30535/mto.22.1.2"
         },
         {
-            "weight": 1.5,
+            "weight": 1.25,
             "source": "10.30535/mto.30.1.7",
             "target": "10.30535/mto.27.4.2"
         },
@@ -2719,17 +2719,17 @@
         {
             "weight": 0.25,
             "source": "Murphy2007Considering_Network_Recursion",
+            "target": "10.30535/mto.12.2.2."
+        },
+        {
+            "weight": 0.25,
+            "source": "Murphy2007Considering_Network_Recursion",
             "target": "Murphy2016Cohn\u2019s_Platonic_Model"
         },
         {
             "weight": 0.25,
             "source": "Murphy2007Considering_Network_Recursion",
             "target": "10.30535/mto.28.1.6"
-        },
-        {
-            "weight": 0.25,
-            "source": "Murphy2007Considering_Network_Recursion",
-            "target": "10.30535/mto.12.2.2."
         },
         {
             "weight": 0.25,
@@ -2769,12 +2769,12 @@
         {
             "weight": 0.25,
             "source": "Schmalfeldt2010Response_to_Mike",
-            "target": "Schmalfeldt2010One_More_Time"
+            "target": "Schmalfeldt2010Response_to_Reddick"
         },
         {
             "weight": 0.25,
             "source": "Schmalfeldt2010Response_to_Mike",
-            "target": "Schmalfeldt2010Response_to_Reddick"
+            "target": "Schmalfeldt2010One_More_Time"
         },
         {
             "weight": 0.25,
@@ -2804,12 +2804,12 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.12.2.2.",
-            "target": "Murphy2016Cohn\u2019s_Platonic_Model"
+            "target": "Murphy2007Considering_Network_Recursion"
         },
         {
             "weight": 0.25,
             "source": "10.30535/mto.12.2.2.",
-            "target": "Murphy2007Considering_Network_Recursion"
+            "target": "Murphy2016Cohn\u2019s_Platonic_Model"
         },
         {
             "weight": 0.25,
@@ -2819,12 +2819,12 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.22.1.1",
-            "target": "10.30535/mto.30.1.7"
+            "target": "10.30535/mto.27.4.2"
         },
         {
             "weight": 0.25,
             "source": "10.30535/mto.22.1.1",
-            "target": "10.30535/mto.27.4.2"
+            "target": "10.30535/mto.30.1.7"
         },
         {
             "weight": 1.0,
@@ -2869,12 +2869,12 @@
         {
             "weight": 0.25,
             "source": "Goldenberg2006A_Musical_Gesture",
-            "target": "10.30535/mto.26.3.2"
+            "target": "10.30535/mto.18.4.3"
         },
         {
             "weight": 0.25,
             "source": "Goldenberg2006A_Musical_Gesture",
-            "target": "10.30535/mto.18.4.3"
+            "target": "10.30535/mto.26.3.2"
         },
         {
             "weight": 1.0,
@@ -2939,7 +2939,7 @@
         {
             "weight": 0.25,
             "source": "Ewell2012Rethinking_Octatonicism:_Views",
-            "target": "Ewell2013\u201cOn_the_System"
+            "target": "10.30535/mto.26.2.4"
         },
         {
             "weight": 0.25,
@@ -2949,7 +2949,7 @@
         {
             "weight": 0.25,
             "source": "Ewell2012Rethinking_Octatonicism:_Views",
-            "target": "10.30535/mto.26.2.4"
+            "target": "Ewell2013\u201cOn_the_System"
         },
         {
             "weight": 1.0,
@@ -2999,12 +2999,12 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.18.4.3",
-            "target": "10.30535/mto.26.3.2"
+            "target": "Goldenberg2006A_Musical_Gesture"
         },
         {
             "weight": 0.25,
             "source": "10.30535/mto.18.4.3",
-            "target": "Goldenberg2006A_Musical_Gesture"
+            "target": "10.30535/mto.26.3.2"
         },
         {
             "weight": 1.0,
@@ -3039,12 +3039,12 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.30.1.2",
-            "target": "10.30535/mto.22.3.3"
+            "target": "10.30535/mto.23.3.4"
         },
         {
             "weight": 0.25,
             "source": "10.30535/mto.30.1.2",
-            "target": "10.30535/mto.23.3.4"
+            "target": "10.30535/mto.22.3.3"
         },
         {
             "weight": 0.25,
@@ -3059,12 +3059,12 @@
         {
             "weight": 0.25,
             "source": "Roeder2009Introduction",
-            "target": "Roeder2009Constructing_Transformational_Signification:"
+            "target": "Lind2009Transformational_Distance_and"
         },
         {
             "weight": 0.25,
             "source": "Roeder2009Introduction",
-            "target": "Lind2009Transformational_Distance_and"
+            "target": "Roeder2009Constructing_Transformational_Signification:"
         },
         {
             "weight": 0.25,
@@ -3074,7 +3074,7 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.28.1.6",
-            "target": "Murphy2016Cohn\u2019s_Platonic_Model"
+            "target": "10.30535/mto.12.2.2."
         },
         {
             "weight": 0.25,
@@ -3084,7 +3084,7 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.28.1.6",
-            "target": "10.30535/mto.12.2.2."
+            "target": "Murphy2016Cohn\u2019s_Platonic_Model"
         },
         {
             "weight": 1.0,
@@ -3164,12 +3164,12 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.28.3.8",
-            "target": "10.30535/mto.28.4.6"
+            "target": "Nobile2013Interval_Permutations"
         },
         {
             "weight": 0.25,
             "source": "10.30535/mto.28.3.8",
-            "target": "Nobile2013Interval_Permutations"
+            "target": "10.30535/mto.28.4.6"
         },
         {
             "weight": 1.0,
@@ -3244,12 +3244,12 @@
         {
             "weight": 0.25,
             "source": "Schmalfeldt2010One_More_Time",
-            "target": "Schmalfeldt2010Response_to_Reddick"
+            "target": "Schmalfeldt2010Response_to_Mike"
         },
         {
             "weight": 0.25,
             "source": "Schmalfeldt2010One_More_Time",
-            "target": "Schmalfeldt2010Response_to_Mike"
+            "target": "Schmalfeldt2010Response_to_Reddick"
         },
         {
             "weight": 0.25,
@@ -3289,12 +3289,12 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.17.4.3",
-            "target": "10.30535/mto.23.1.7"
+            "target": "10.30535/mto.25.2.5"
         },
         {
             "weight": 0.25,
             "source": "10.30535/mto.17.4.3",
-            "target": "10.30535/mto.25.2.5"
+            "target": "10.30535/mto.23.1.7"
         },
         {
             "weight": 1.0,
@@ -3339,11 +3339,6 @@
         {
             "weight": 0.25,
             "source": "Roeder2009Constructing_Transformational_Signification:",
-            "target": "Roeder2009Introduction"
-        },
-        {
-            "weight": 0.25,
-            "source": "Roeder2009Constructing_Transformational_Signification:",
             "target": "Lind2009Transformational_Distance_and"
         },
         {
@@ -3355,6 +3350,11 @@
             "weight": 0.25,
             "source": "Roeder2009Constructing_Transformational_Signification:",
             "target": "Roeder2001Pulse_Streams_and"
+        },
+        {
+            "weight": 0.25,
+            "source": "Roeder2009Constructing_Transformational_Signification:",
+            "target": "Roeder2009Introduction"
         },
         {
             "weight": 1.0,
@@ -3409,12 +3409,12 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.23.1.7",
-            "target": "10.30535/mto.17.1.8"
+            "target": "10.30535/mto.25.2.5"
         },
         {
             "weight": 0.25,
             "source": "10.30535/mto.23.1.7",
-            "target": "10.30535/mto.25.2.5"
+            "target": "10.30535/mto.17.1.8"
         },
         {
             "weight": 0.25,
@@ -3464,12 +3464,12 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.14.2.3",
-            "target": "10.30535/mto.26.2.1"
+            "target": "10.30535/mto.15.5.1"
         },
         {
             "weight": 0.25,
             "source": "10.30535/mto.14.2.3",
-            "target": "10.30535/mto.15.5.1"
+            "target": "10.30535/mto.26.2.1"
         },
         {
             "weight": 1.0,
@@ -3514,12 +3514,12 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.21.2.5",
-            "target": "Heetderks2011A_Tonal_Revolution"
+            "target": "10.30535/mto.26.1.3"
         },
         {
             "weight": 0.25,
             "source": "10.30535/mto.21.2.5",
-            "target": "10.30535/mto.26.1.3"
+            "target": "Heetderks2011A_Tonal_Revolution"
         },
         {
             "weight": 0.25,
@@ -3584,17 +3584,17 @@
         {
             "weight": 0.25,
             "source": "Murphy2016Cohn\u2019s_Platonic_Model",
+            "target": "10.30535/mto.12.2.2."
+        },
+        {
+            "weight": 0.25,
+            "source": "Murphy2016Cohn\u2019s_Platonic_Model",
             "target": "Murphy2007Considering_Network_Recursion"
         },
         {
             "weight": 0.25,
             "source": "Murphy2016Cohn\u2019s_Platonic_Model",
             "target": "10.30535/mto.28.1.6"
-        },
-        {
-            "weight": 0.25,
-            "source": "Murphy2016Cohn\u2019s_Platonic_Model",
-            "target": "10.30535/mto.12.2.2."
         },
         {
             "weight": 1.0,
@@ -3669,12 +3669,12 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.30.4.5",
-            "target": "10.30535/mto.21.2.3"
+            "target": "Bourne2016Perceiving_Irony_in"
         },
         {
             "weight": 0.25,
             "source": "10.30535/mto.30.4.5",
-            "target": "Bourne2016Perceiving_Irony_in"
+            "target": "10.30535/mto.21.2.3"
         },
         {
             "weight": 0.25,
@@ -3949,12 +3949,12 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.20.2.1",
-            "target": "10.30535/mto.30.1.8"
+            "target": "10.30535/mto.14.2.2"
         },
         {
             "weight": 0.25,
             "source": "10.30535/mto.20.2.1",
-            "target": "10.30535/mto.14.2.2"
+            "target": "10.30535/mto.30.1.8"
         },
         {
             "weight": 1.0,
@@ -4134,12 +4134,12 @@
         {
             "weight": 0.25,
             "source": "Schmalfeldt2010Response_to_Reddick",
-            "target": "Schmalfeldt2010One_More_Time"
+            "target": "Schmalfeldt2010Response_to_Mike"
         },
         {
             "weight": 0.25,
             "source": "Schmalfeldt2010Response_to_Reddick",
-            "target": "Schmalfeldt2010Response_to_Mike"
+            "target": "Schmalfeldt2010One_More_Time"
         },
         {
             "weight": 1.0,
@@ -4224,7 +4224,7 @@
         {
             "weight": 0.25,
             "source": "Roeder2001Pulse_Streams_and",
-            "target": "Roeder2009Introduction"
+            "target": "Lind2009Transformational_Distance_and"
         },
         {
             "weight": 0.25,
@@ -4234,12 +4234,12 @@
         {
             "weight": 0.25,
             "source": "Roeder2001Pulse_Streams_and",
-            "target": "Lind2009Transformational_Distance_and"
+            "target": "Roeder2009A_Transformational_Space"
         },
         {
             "weight": 0.25,
             "source": "Roeder2001Pulse_Streams_and",
-            "target": "Roeder2009A_Transformational_Space"
+            "target": "Roeder2009Introduction"
         },
         {
             "weight": 0.25,
@@ -4294,17 +4294,17 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.23.4.3",
-            "target": "10.30535/mto.25.4.3"
-        },
-        {
-            "weight": 0.25,
-            "source": "10.30535/mto.23.4.3",
             "target": "10.30535/mto.27.4.5"
         },
         {
             "weight": 0.25,
             "source": "10.30535/mto.23.4.3",
             "target": "10.30535/mto.30.1.8"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.23.4.3",
+            "target": "10.30535/mto.25.4.3"
         },
         {
             "weight": 1.25,
@@ -4504,17 +4504,17 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.27.4.5",
-            "target": "10.30535/mto.25.4.3"
-        },
-        {
-            "weight": 0.25,
-            "source": "10.30535/mto.27.4.5",
             "target": "10.30535/mto.30.1.8"
         },
         {
             "weight": 0.25,
             "source": "10.30535/mto.27.4.5",
             "target": "10.30535/mto.23.4.3"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.27.4.5",
+            "target": "10.30535/mto.25.4.3"
         },
         {
             "weight": 0.25,
@@ -4679,12 +4679,12 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.30.1.8",
-            "target": "10.30535/mto.28.1.9"
+            "target": "10.30535/mto.29.3.8"
         },
         {
             "weight": 0.25,
             "source": "10.30535/mto.30.1.8",
-            "target": "10.30535/mto.29.3.8"
+            "target": "10.30535/mto.28.1.9"
         },
         {
             "weight": 0.25,
@@ -4699,12 +4699,12 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.28.4.7",
-            "target": "10.30535/mto.24.1.4"
+            "target": "Schubert2013What_Modular_Analysis"
         },
         {
             "weight": 0.25,
             "source": "10.30535/mto.28.4.7",
-            "target": "Schubert2013What_Modular_Analysis"
+            "target": "10.30535/mto.24.1.4"
         },
         {
             "weight": 0.25,
@@ -4729,11 +4729,6 @@
         {
             "weight": 0.25,
             "source": "Lind2009Transformational_Distance_and",
-            "target": "Roeder2009Introduction"
-        },
-        {
-            "weight": 0.25,
-            "source": "Lind2009Transformational_Distance_and",
             "target": "Roeder2009Constructing_Transformational_Signification:"
         },
         {
@@ -4745,6 +4740,11 @@
             "weight": 0.25,
             "source": "Lind2009Transformational_Distance_and",
             "target": "Roeder2001Pulse_Streams_and"
+        },
+        {
+            "weight": 0.25,
+            "source": "Lind2009Transformational_Distance_and",
+            "target": "Roeder2009Introduction"
         },
         {
             "weight": 0.25,
@@ -4774,12 +4774,12 @@
         {
             "weight": 0.25,
             "source": "Ewell2013\u201cOn_the_System",
-            "target": "10.30535/mto.25.4.4"
+            "target": "10.30535/mto.26.2.4"
         },
         {
             "weight": 0.25,
             "source": "Ewell2013\u201cOn_the_System",
-            "target": "10.30535/mto.26.2.4"
+            "target": "10.30535/mto.25.4.4"
         },
         {
             "weight": 1.0,
@@ -4989,17 +4989,17 @@
         {
             "weight": 0.25,
             "source": "Burns2004Authenticity,_Appropriation,_Signification:",
-            "target": "Burns2008Embodied_Subjectivities_in"
-        },
-        {
-            "weight": 0.25,
-            "source": "Burns2004Authenticity,_Appropriation,_Signification:",
             "target": "Burns2005Feeling_the_Style:"
         },
         {
             "weight": 0.25,
             "source": "Burns2004Authenticity,_Appropriation,_Signification:",
             "target": "10.30535/mto.29.4.2"
+        },
+        {
+            "weight": 0.25,
+            "source": "Burns2004Authenticity,_Appropriation,_Signification:",
+            "target": "Burns2008Embodied_Subjectivities_in"
         },
         {
             "weight": 1.0,
@@ -5019,11 +5019,6 @@
         {
             "weight": 0.25,
             "source": "Schubert2013What_Modular_Analysis",
-            "target": "10.30535/mto.28.4.7"
-        },
-        {
-            "weight": 0.25,
-            "source": "Schubert2013What_Modular_Analysis",
             "target": "10.30535/mto.24.1.4"
         },
         {
@@ -5037,6 +5032,11 @@
             "target": "Guido2014Unpacking_the_Box"
         },
         {
+            "weight": 0.25,
+            "source": "Schubert2013What_Modular_Analysis",
+            "target": "10.30535/mto.28.4.7"
+        },
+        {
             "weight": 1.0,
             "source": "10.30535/mto.28.1.9",
             "target": "10.30535/mto.20.2.5"
@@ -5044,12 +5044,12 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.28.1.9",
-            "target": "10.30535/mto.30.1.8"
+            "target": "10.30535/mto.29.3.8"
         },
         {
             "weight": 0.25,
             "source": "10.30535/mto.28.1.9",
-            "target": "10.30535/mto.29.3.8"
+            "target": "10.30535/mto.30.1.8"
         },
         {
             "weight": 0.25,
@@ -5074,7 +5074,7 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.21.3.10",
-            "target": "10.30535/mto.26.2.11"
+            "target": "10.30535/mto.27.4.2"
         },
         {
             "weight": 0.25,
@@ -5084,7 +5084,7 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.21.3.10",
-            "target": "10.30535/mto.27.4.2"
+            "target": "10.30535/mto.26.2.11"
         },
         {
             "weight": 1.0,
@@ -5149,17 +5149,17 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.27.4.2",
-            "target": "10.30535/mto.26.2.11"
-        },
-        {
-            "weight": 0.5,
-            "source": "10.30535/mto.27.4.2",
             "target": "10.30535/mto.30.1.7"
         },
         {
             "weight": 0.25,
             "source": "10.30535/mto.27.4.2",
             "target": "10.30535/mto.21.3.10"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.27.4.2",
+            "target": "10.30535/mto.26.2.11"
         },
         {
             "weight": 0.25,
@@ -5184,7 +5184,7 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.27.4.9",
-            "target": "10.30535/mto.28.4.7"
+            "target": "Schubert2013What_Modular_Analysis"
         },
         {
             "weight": 0.25,
@@ -5194,12 +5194,12 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.27.4.9",
-            "target": "Schubert2013What_Modular_Analysis"
+            "target": "Guido2014Unpacking_the_Box"
         },
         {
             "weight": 0.25,
             "source": "10.30535/mto.27.4.9",
-            "target": "Guido2014Unpacking_the_Box"
+            "target": "10.30535/mto.28.4.7"
         },
         {
             "weight": 0.25,
@@ -5214,12 +5214,12 @@
         {
             "weight": 0.25,
             "source": "Nobile2013Interval_Permutations",
-            "target": "10.30535/mto.28.4.6"
+            "target": "10.30535/mto.28.3.8"
         },
         {
             "weight": 0.25,
             "source": "Nobile2013Interval_Permutations",
-            "target": "10.30535/mto.28.3.8"
+            "target": "10.30535/mto.28.4.6"
         },
         {
             "weight": 1.0,
@@ -5359,7 +5359,7 @@
         {
             "weight": 0.25,
             "source": "Roeder2009A_Transformational_Space",
-            "target": "Roeder2009Introduction"
+            "target": "Lind2009Transformational_Distance_and"
         },
         {
             "weight": 0.25,
@@ -5369,12 +5369,12 @@
         {
             "weight": 0.25,
             "source": "Roeder2009A_Transformational_Space",
-            "target": "Lind2009Transformational_Distance_and"
+            "target": "Roeder2001Pulse_Streams_and"
         },
         {
             "weight": 0.25,
             "source": "Roeder2009A_Transformational_Space",
-            "target": "Roeder2001Pulse_Streams_and"
+            "target": "Roeder2009Introduction"
         },
         {
             "weight": 0.25,
@@ -5419,12 +5419,12 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.22.3.1",
-            "target": "10.30535/mto.26.2.1"
+            "target": "10.30535/mto.15.5.1"
         },
         {
             "weight": 0.25,
             "source": "10.30535/mto.22.3.1",
-            "target": "10.30535/mto.15.5.1"
+            "target": "10.30535/mto.26.2.1"
         },
         {
             "weight": 0.25,
@@ -5504,17 +5504,17 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.25.2.5",
+            "target": "10.30535/mto.17.4.3"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.25.2.5",
             "target": "10.30535/mto.17.1.8"
         },
         {
             "weight": 0.25,
             "source": "10.30535/mto.25.2.5",
             "target": "10.30535/mto.23.1.7"
-        },
-        {
-            "weight": 0.25,
-            "source": "10.30535/mto.25.2.5",
-            "target": "10.30535/mto.17.4.3"
         },
         {
             "weight": 1.0,
@@ -5549,17 +5549,17 @@
         {
             "weight": 0.25,
             "source": "10.30535/mto.26.2.11",
+            "target": "10.30535/mto.27.4.2"
+        },
+        {
+            "weight": 0.25,
+            "source": "10.30535/mto.26.2.11",
             "target": "10.30535/mto.30.1.7"
         },
         {
             "weight": 0.25,
             "source": "10.30535/mto.26.2.11",
             "target": "10.30535/mto.21.3.10"
-        },
-        {
-            "weight": 0.25,
-            "source": "10.30535/mto.26.2.11",
-            "target": "10.30535/mto.27.4.2"
         },
         {
             "weight": 0.25,
