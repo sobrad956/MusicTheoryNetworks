@@ -1,0 +1,4 @@
+https://github.com/stanfordnlp/GloVe?tab=readme-ov-file
+Use Common Crawl (840B tokens, 2.2M vocab, cased, 300d vectors, 2.03 GB download): glove.840B.300d.zip 
+conda activate spacy
+python3 -m spacy init vectors en glove.840B.300d.txt glove.840B.300d.forSpacy

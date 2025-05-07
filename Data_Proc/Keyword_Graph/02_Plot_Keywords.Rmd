@@ -1,0 +1,1007 @@
+---
+output: 
+editor_options: 
+  chunk_output_type: console
+---
+
+TODO
+some are split by semicolons and all together
+"Salvatore Sciarrino; post-tonal music; musical form; formal functions; temporality; density; musical semantics"
+sort by length
+
+```{r}
+setwd("/scratch/gpfs/jl8975/jlanglieb/tmp/graph/")
+library(ggplot2)
+library(ggridges)
+library(data.table)
+library(magrittr)
+library(dplyr)
+library(stringr)
+library(purrr)
+library(cowplot)
+# library(tidyr)
+
+V <- View
+
+clamp = function(lst, maxVal = Inf, minVal = -Inf){
+  lst[lst > maxVal] = maxVal
+  lst[lst < minVal] = minVal
+  lst
+}
+clampQ = function(lst, quant){
+  clamp(lst,
+        maxVal = quantile(lst, 1-quant),
+        minVal = quantile(lst, quant)
+  )
+}
+
+compareSets = function(setA, setB){
+  print(glue::glue("|A| = {length(setA)}"))
+  print(glue::glue("|B| = {length(setB)}"))
+  print(glue::glue("|A-B| = {length(setdiff(setA, setB))}"))
+  print(glue::glue("|B-A| = {length(setdiff(setB, setA))}"))
+  print(glue::glue("|AUB| = {length(intersect(setB, setA))}"))
+}
+
+rsetdiff = function(a,b){setdiff(b,a)}
+
+source("/scratch/gpfs/jl8975/jlanglieb/01_DRY_Functions/12_Puck_Plotting_Helper.R")
+
+
+FRCumsumPctGp = function(list_o_vals, nbins=100, dontShowDiff = F){
+  if(length(list_o_vals) > 3){
+    print("Mayday. Probably only want <= 3 groups")
+  }
+  normalPlot = list_o_vals %>%
+    imap(~data.frame(val=.,col=.y)) %>%
+    data.table::rbindlist()  %>%
+    {.$col = factor(.$col, levels=unique(.$col)); .} %>%
+    ggplot(aes(x=val, alpha=0.5, size=2))+
+    scale_alpha_identity()+ scale_size_identity()+
+    stat_ecdf(aes(
+      # col=paste0(col, "_", "Fwd")),
+      col=col),
+      geom = "step")+
+    stat_ecdf(aes(
+      # col=paste0(col, "_", "Rev"),
+      col=col,
+      # y = 1 - ..y..),
+      y = 1 - after_stat(y)),
+      geom = "step")
+  
+  if(length(list_o_vals) == 2 && dontShowDiff != T){
+    unlistedVals = unlist(list_o_vals, use.name=F)
+    checkOverX = seq(min(unlistedVals, na.rm = T),
+                     max(unlistedVals, na.rm = T),
+                     length.out = 50)
+    p2 = list_o_vals %>%
+      map(~list(checkOverX, 1-ecdf(.)(checkOverX))) %>%
+      {list(x=.[[1]][[1]], y=abs(.[[1]][[2]]-.[[2]][[2]]))} %>%
+      as.data.frame() %>%
+      ggplot(aes(x=x, y=y))+
+      geom_point()+
+      ggtitle("Abs diff of red bs blue")
+  return(cowplot::plot_grid(normalPlot + theme(legend.position = "top"),
+                     p2, ncol=1))
+  }else{
+    return(normalPlot)
+  }
+  # scale_color_brewer(type="qual",
+  #                    # when col has underscore
+  #                    # palette="Paired"
+  #                    )
+}
+sTable <- function(x, dec = F){
+  sort(Rfast::Table(x), decreasing = dec)
+}
+Table <- Rfast::Table
+stable <- sTable
+```
+
+
+```{r}
+library(jsonlite)
+library(dplyr)
+library(purrr)
+library(Matrix)
+library(fs)
+
+# Define the main directory
+mainF <- "/scratch/gpfs/jl8975/jlanglieb/tmp/graph/mto-project-admin/mto/data/wEmbeddings/"
+
+# Get all JSON files with embeddings
+json_files <- fs::dir_ls(
+  path = mainF,
+  recurse = FALSE
+)
+
+message(glue::glue("Found {length(json_files)} JSON files with embeddings to process."))
+
+# Function to extract embeddings from a single JSON file
+extract_embeddings <- function(file_path) {
+  # Read the JSON file and extract embeddings
+  tryCatch({
+    # Read JSON
+    data <- jsonlite::read_json(file_path, simplifyVector = TRUE)
+    
+    # Check if keyword_embeddings exists
+    if (!("keyword_embeddings" %in% names(data))) {
+      message(glue::glue("No keyword_embeddings found in {basename(file_path)}"))
+      return(NULL)
+    }
+    
+    # Extract embeddings
+    embeddings <- data$keyword_embeddings
+    # browser()
+    
+    # Return NULL if no embeddings
+    if (length(embeddings) == 0) {
+      message(glue::glue("No embeddings found in {basename(file_path)}"))
+      return(NULL)
+    }
+    
+    # Convert list of embeddings to matrix
+    embedding_matrix <- embeddings %>%
+      map(~ as.numeric(.x)) %>%
+      map_dfr(~ as.data.frame(t(.x))) %>%
+      as.matrix()
+    
+    # Set row names to keywords
+    rownames(embedding_matrix) <- names(embeddings)
+    # browser()
+    
+    # Return a list with metadata and embedding matrix
+    list(
+      file_path = file_path,
+      title = data$title,
+      keywords = names(embeddings),
+      embedding_matrix = embedding_matrix
+      # doi = data$doi
+    )
+  }, error = function(e) {
+    message(glue::glue("Error processing {basename(file_path)}: {conditionMessage(e)}"))
+    return(NULL)
+  })
+}
+
+# Process all JSON files using purrr's map
+document_embeddings <- json_files %>%
+  map(extract_embeddings) %>%
+  compact() # Remove NULL results
+
+
+mto_library = jsonlite::read_json("/scratch/gpfs/jl8975/jlanglieb/tmp/graph/mto-project-admin/mto/mto_library.json")
+
+# document_embeddings %>% names %>% basename %>% str_remove("document_embeddings")
+
+A =  mto_library$publications %>% map_chr(~.$source) %>% basename
+B =  document_embeddings %>% names %>% basename %>% str_remove(".wEmbeddings.json")
+
+compareSets(A,B)
+#  These are ones with no keywords!
+setdiff(A,B) %>% head
+
+stopifnot(1 == length(setdiff(B,A)))
+
+document_embeddings[which(B == setdiff(B,A))] = NULL
+
+
+JSON_to_ID = mto_library$publications %>%
+  map_chr(~.$source) %>%
+  map(basename) %>% 
+  {purrr::set_names(names(.), .)}
+
+# TODO why is there 1 B-A
+
+newN = names(document_embeddings) %>%
+  basename %>% str_remove(".wEmbeddings.json") %>%
+  {JSON_to_ID[.]}
+
+stopifnot(0 == sum(is.na(newN)))
+
+# names(document_embeddings) = newN
+
+
+# document_embeddings %>% map_chr(~.$doi)
+# document_embeddings %>% map_chr(~.$doi) %>% {.==""} %>% sTable
+
+message(glue::glue("Successfully processed {length(document_embeddings)} documents."))
+
+qs::qsave(document_embeddings, "doc_embeddings.qs")
+```
+
+```{r}
+document_embeddings = qs::qread("doc_embeddings.qs")
+```
+
+
+# glove.840B.300d.forSpacy
+```{r}
+# 5714 total non-dedup
+document_embeddings %>% map(~.$embedding_matrix) %>% map_int(nrow) %>% sum
+
+
+ALL_COMBN_EMBEDDINGS = document_embeddings %>% map(~.$embedding_matrix) %>% {do.call(rbind, .)}
+
+rownames(ALL_COMBN_EMBEDDINGS) %>% unique %>% length
+# 3321 unique vs 5714 w dups
+
+
+# and 540 are all 0
+
+
+# repeated unknown to word2vec names
+ALL_COMBN_EMBEDDINGS %>% rowSums() %>% {.[.==0]} %>% names %>% unique %>% length
+ALL_COMBN_EMBEDDINGS %>% rowSums() %>% {.[.==0]} %>% names %>% tolower() %>% sTable %>% {(.[. != 1])}
+
+            #          boris asafiev                      enharmonicism 
+            #                      2                                  2 
+            #              gaffurius                         gjerdingen 
+            #                      2                                  2 
+            #           hemitonicism                         hexachords 
+            #                      2                                  2 
+            #              hexatonic               hyperdiatonic system 
+            #                      2                                  2 
+            #              kholopova                              khyāl 
+            #                      2                                  2 
+            #     klangfarbenmelodie                        neotonality 
+            #                      2                                  2 
+            #              octatonic                             pcsets 
+            #                      2                                  2 
+            #             perséphone                     polytextuality 
+            #                      2                                  2 
+            #       post-spectralism                         satzmodell 
+            #                      2                                  2 
+            #            spectralism                         superarray 
+            #                      2                                  2 
+            #               trichord happy rain on a spring night(2004) 
+            #                      2                                  3 
+            #              hepokoski                       grundgestalt 
+            #                      3                                  4 
+            # klumpenhouwer networks                        microtiming 
+            #                      4                                  4 
+            #             partimenti                             taneev 
+            #                      4                                  4 
+            #            formenlehre                         partimento 
+            #                      5                                  5 
+            #           thoroughbass                            tonnetz 
+            #                      5                                  5 
+            #               kholopov                       octatonicism 
+            #                      6                                  6 
+            #             hypermeter 
+            #                     10 
+
+
+rownames(ALL_COMBN_EMBEDDINGS) %>% stable %>% tail(30)
+
+rownames(ALL_COMBN_EMBEDDINGS) %>% stable %>% set_names(NULL) %>% hist
+
+
+# rownames(ALL_COMBN_EMBEDDINGS) %>% sTable %>% tail(20)
+# transformational theory                 gesture 
+#                      16                      17 
+#                    jazz                  Mozart 
+#                      19                      20 
+#                  timbre              perception 
+#                      20                      22 
+#               semiotics                tonality 
+#                      22                      26 
+#              Schoenberg                Schenker 
+#                      31                      33 
+#            counterpoint           improvisation 
+#                      33                      34 
+#             performance                pedagogy 
+#                      35                      37 
+#                   meter                 harmony 
+#                      39                      41 
+#                    form                  rhythm 
+#                      46                      47 
+#           popular music                analysis 
+#                      55                      81 
+
+rownames(ALL_COMBN_EMBEDDINGS) %>% sTable %>%
+  FRCumsum()
+
+rownames(ALL_COMBN_EMBEDDINGS) %>% sTable %>% {.[.!= 1]} %>% 
+  clamp(10) %>% 
+  FRCumsum()+ggtitle("Non-1, clamped at 10")
+
+# All of same name are the same value
+ALL_COMBN_EMBEDDINGS %>% 
+  {.[rownames(.) == "analysis",]} %>% 
+  papply(2, ~all(. == .[[1]])) %>%
+  all
+
+
+justUniqueEmbeddings = ALL_COMBN_EMBEDDINGS %>%
+  {.[unique(rownames(.)), ]}
+
+# all zero
+justUniqueEmbeddings %>% rowSums %>% {.==0} %>% table
+# FALSE  TRUE 
+#  3150   171 
+
+allZero = justUniqueEmbeddings %>% rowSums %>% {.==0} %>% which %>% names
+
+# All zero REMOVED
+
+justUniqueEmbeddings %<>% {.[setdiff(rownames(.), allZero), ]}
+
+
+# AHHH, IS SUM OF ELEMENTWISE DISTANCES
+# fullDistMtx = Rfast::Dist(justUniqueEmbeddings,
+#                           method="cosine")
+#                           # method="euclidean")
+
+fullDistMtx = rdist::rdist(justUniqueEmbeddings, metric = "angular") %>% as.matrix
+diag(fullDistMtx) = NaN
+rownames(fullDistMtx) = rownames(justUniqueEmbeddings)
+colnames(fullDistMtx) = rownames(justUniqueEmbeddings)
+
+max(fullDistMtx, na.rm = T)
+
+dim(fullDistMtx)
+
+fullDistMtx %>% as.numeric() %>% pDens
+fullDistMtx %>% as.numeric() %>% FRCumsum()
+
+
+fullDistMtx %>% as.numeric() %>% {.[. < .75]} %>% pDens
+fullDistMtx %>% as.numeric() %>% {.[. < .25]} %>% FRCumsum()
+
+fullDistMtx %>%
+  # Just textual differences, quotes and whatever
+  # {. < .05/2} %>%
+  {. < .3} %>%
+  which(arr.ind=T) %>% 
+  {
+    # if()
+    # browser()
+    row_names <- rownames(fullDistMtx)[.[, "row"]]
+    col_names <- colnames(fullDistMtx)[.[, "col"]]
+    data.frame(row_names = row_names, col_names = col_names,
+               row_i = .[, "row"],
+               col_i = .[, "col"],
+               val = fullDistMtx[.]
+               )
+    # map(seq(length(col_names)), function(x){(c(col_names[[x]], col_names[[x]]))} )
+  } %>%
+  # symmetric
+  filter(row_i < col_i) %>%
+  arrange(desc(val)) %>% 
+  View
+  # unique %>% length
+
+  # Combine row and column names into a list of tuples
+  cell_names <- paste0("(", row_names, ", ", col_names, ")")}
+
+fullDistMtx %>% as.numeric() %>% {.[. < 5]} %>% pDens
+
+(fullDistMtx < .25) %>% image(useRaster=T)
+
+newOrder = fullDistMtx %>% 
+  {.[is.na(.)]=0;.} %>% 
+  slanter::slanted_orders(same_order = T, squared_order=T)
+
+(fullDistMtx ) %>%
+  {.[newOrder$rows, newOrder$rows]}%>%
+  image(useRaster=T)
+
+
+newOrderNeg = fullDistMtx %>% 
+  {max(.)-.} %>% 
+  slanter::slanted_orders(same_order = T,  discount_outliers=F)
+
+newOrderBelow = fullDistMtx %>% 
+  {. < .25} %>% 
+  slanter::slanted_orders(same_order = T, discount_outliers=F)
+
+(fullDistMtx) %>% 
+  {max(.)-.} %>% 
+  {.[newOrderNeg$rows, newOrderNeg$rows]}%>%
+  image(useRaster=T)
+
+# (fullDistMtx < .25) %>% 
+(fullDistMtx ) %>%
+  # {.[newOrder$rows, newOrder$rows]}%>%
+  {.[newOrderBelow$rows, newOrderBelow$rows]}%>%
+  
+  image(useRaster=T)
+
+
+(fullDistMtx ) %>%
+  {.[newOrderBelow$rows, newOrderBelow$rows]} %>% 
+  rowSums %>%
+  # clamp(20000) %>%  FRCumsum()
+  {. < 18000} %>% which %>%
+  {.[diff(c(-100,.)) == 1]} %>% plot
+
+
+(fullDistMtx ) %>%
+  {.[newOrderBelow$rows, newOrderBelow$rows]} %>% 
+  {rownames(.)[1544:1940]}
+
+(fullDistMtx ) %>%
+  {.[newOrderBelow$rows, newOrderBelow$rows]} %>% 
+  {.[1544:1940, 1544:1940]} %>%
+  identity
+  # image(useRaster=T)
+
+
+```
+
+
+```{r}
+
+
+# Want small distances to be higher weight
+my_dist_matrix = fullDistMtx %>% {max(., na.rm=T) - .}
+
+
+# [1:10, 1:10]
+# write.csv(my_dist_matrix,
+                   # "keywords_mtx_postThresh.csv",
+            # )
+# pigz -p 10 -9 keywords_mtx_postThresh.csv
+
+# vim to change top left
+# then run pigz
+
+
+
+# my_dist_sparse@x %>% pDens()
+
+my_dist_matrix %>% as.numeric %>% mean(na.rm=T)
+
+
+MAIN_THRESH = my_dist_matrix %>% as.numeric %>% mean(na.rm=T)
+MAIN_THRESH = 1
+my_dist_matrix[my_dist_matrix < MAIN_THRESH] = 0
+my_dist_matrix[is.na(my_dist_matrix)] = 0
+
+
+```
+
+```{r}
+library(igraph)
+graph_from_matrix <- graph_from_adjacency_matrix(
+  my_dist_matrix, # Use your actual matrix variable here
+  mode = "undirected",
+  weighted = TRUE,
+  diag = FALSE
+)
+
+# # You can inspect the created graph (optional)
+# cat("\nGenerated igraph object:\n")
+# print(graph_from_matrix)
+# cat("\nEdge weights in the graph:\n")
+# print(E(graph_from_matrix)$weight) # View the edge weights (should be the distances)
+# cat("\nVertex names in the graph:\n")
+# print(V(graph_from_matrix)$name) # View the node names (should match matrix dimnames)
+
+
+# Run the Louvain algorithm on the graph
+# By default, cluster_louvain uses the 'weight' edge attribute if present,
+# which is exactly what we want since our weights are the distances.
+louvain_clusters <- cluster_louvain(graph_from_matrix)
+
+louvain_clusters$membership %>% sTable
+louvain_clusters$membership %>% sTable %>% {100*./sum(.)}
+
+name_to_cluster = set_names(louvain_clusters$membership,
+                            igraph::V(graph_from_matrix)$name )
+
+name_to_cluster %>% as.numeric %>% sTable %>% {.[. > 10]} %>%
+  names %>%
+  rlang::set_names() %>% 
+  map(~names(name_to_cluster)[name_to_cluster == .]) %>%
+  map(~{
+    # set.seed(12)
+    # sample(., size=min(length(.), 80))
+    .
+    })
+
+
+
+
+# [[1]]
+#  [1] "Lacan"              "musicology"         "Jacques Handschin" 
+#  [4] "Adorno"             "Pythagorean"        "intentionality"    
+#  [7] "digital musicology" "comma"              "narrativity"       
+# [10] "timelessness"       "war"                "schemata"          
+# [13] "Pythagoras"         "new repertoires"    "platonism"         
+# [16] "galant expositions" "mythology"          "minimalism"        
+# [19] "Deleuze"            "syntonic comma"    
+# 
+# [[2]]
+#  [1] "Parton"                "Robbins"               "Newton"               
+#  [4] "Robert Levin"          "Georg Friedrich Haas"  "(Part I:) John Clough"
+#  [7] ": Josephine Lang"      "Moses"                 "Adam Clayton"         
+# [10] "Steve Larson"          "Bruce Goff"            "Griffith"             
+# [13] "George Lakoff"         "Paul Sacher Stiftung"  "Burns"                
+# [16] "Wes Montgomery"        "Mrs. H. H. A. Beach"   "Georgina Born"        
+# [19] "Joseph Fuchs"          "Ernst Kurth"          
+# 
+# [[3]]
+#  [1] "twenty-first century music"       "Feminist music theory"           
+#  [3] "post-tonal music"                 "ensemble communication"          
+#  [5] "medieval motets"                  "dance music"                     
+#  [7] "history of musical performance"   "cover songs"                     
+#  [9] "early-modern"                     "punk rock"                       
+# [11] "post-millennial rock"             "musical autonomy"                
+# [13] "ecology of music"                 "reception history"               
+# [15] "popular music analysis"           "‘translation of music"           
+# [17] "musical interpretation"           "popular"                         
+# [19] "post-punk"                        "mimetic instrumental resynthesis"
+# 
+# [[4]]
+#  [1] "“De rêve"                    "Holland"                    
+#  [3] "Darmstadt"                   "” “Red Cross"               
+#  [5] "Art of Fugue"                "The Fourth of July"         
+#  [7] "Il Trittico"                 "Player piano"               
+#  [9] "Mozart"                      "Symphony in Three Movements"
+# [11] "Glazunov"                    "cinema"                     
+# [13] "Berlin"                      "Vienna"                     
+# [15] "Bizet"                       "Movement"                   
+# [17] "Gubaidulina"                 "Data Garden"                
+# [19] "Rihanna"                     "Montpellier Codex"          
+# 
+# [[5]]
+#  [1] "morality"                 "science"                  "realization"             
+#  [4] "orderly algorithm"        "pattern completion"       "metric manipulation"     
+#  [7] "Chinese modal theory"     "work concept"             "speech-act theory"       
+# [10] "diversity"                "pedagogy"                 "narrative"               
+# [13] "meaning"                  "theorists"                "allusion"                
+# [16] "sensorimotor integration" "Translation"              "Performance style"       
+# [19] "feminist analysis"        "hexagonal cloning theory"
+# 
+# [[6]]
+#  [1] "figured-bass realization" "melodic stratification"   "pitch commonality"       
+#  [4] "Interval permutations"    "acoustic scale"           "dodecaphony"             
+#  [7] "formula"                  "dodecaphonic"             "motion-capture"          
+# [10] "waltz"                    "pedal steel guitar"       "maximal evenness"        
+# [13] "rhythmic shift"           "string quintet"           "unison motion"           
+# [16] "pitch multiplication"     "sadness"                  "aggregate partition"     
+# [19] "loops"                    "combinations"   
+```
+
+
+```{r}
+# my_dist_matrix = my_dist_matrix[1:20, 1:20]
+my_dist_matrix_lower = my_dist_matrix
+my_dist_matrix_lower[upper.tri(my_dist_matrix_lower, diag=T)] = 0
+my_dist_sparse =  as(my_dist_matrix_lower, "TsparseMatrix")
+
+df_for_csv = data.table::data.table(
+  Source = my_dist_sparse@Dimnames[[1]][my_dist_sparse@i+1],
+  Target   = my_dist_sparse@Dimnames[[1]][my_dist_sparse@j+1],
+  val = my_dist_sparse@x
+)
+
+df_for_csv %>% nrow
+
+data.table::fwrite(df_for_csv, "keywords_graph_postThresh.csv.gz",
+                   quote=T)
+
+
+df_for_csv_node = data.table::data.table(
+  ID = my_dist_sparse@Dimnames[[1]],
+  Cluster = name_to_cluster[my_dist_sparse@Dimnames[[1]]] %>%
+    as.numeric %>% as.character()
+)
+
+# APPEND TO EXISTING WORKSPACE
+data.table::fwrite(df_for_csv_node, "keywords_graph_postThresh.Cluster.csv.gz",
+                   quote=T)
+```
+
+
+```{r}
+
+document_embeddings %>% length
+# 855, 855 choose 2 = 365,085, fine
+justUniqueEmbeddings %>% rownames
+
+
+
+validKeywords = rownames(justUniqueEmbeddings)
+fastmatch::fmatch("23", validKeywords)
+
+
+FastIndxNoFilter = function(x, cachedTable){
+  fastmatch::fmatch(x, cachedTable, nomatch=0)
+}
+
+FastIndxNoFilter(c("23", "McCartney"), validKeywords)
+
+
+doc_combn_order = document_embeddings %>%
+  length %>% {combn(., 2)}
+
+allDocs_pairwiseDists = doc_combn_order %>%
+  # {.[,1:10000]} %>% 
+  papply(2, function(rows){
+    doc1_words = document_embeddings[[rows[[1]]]]$keywords
+    doc2_words = document_embeddings[[rows[[2]]]]$keywords
+    
+    # doc1_words %<>% intersect(validKeywords)
+    # doc2_words %<>% intersect(validKeywords)
+    
+    # browser()
+    doc1_words %<>% {.[FastIndxNoFilter(., validKeywords) > 0]}
+    doc2_words %<>% {.[FastIndxNoFilter(., validKeywords) > 0]}
+    
+    if(length(doc1_words) == 0 || length(doc2_words) == 0){
+      return(NaN)
+    }
+    
+    X = justUniqueEmbeddings[doc1_words,,drop=F]
+    Y = justUniqueEmbeddings[doc2_words,,drop=F]
+    
+    stopifnot(0 == sum(rowSums(X) == 0)+sum(rowSums(Y) == 0))
+    
+    pairDist = rdist::cdist(X = X,
+                            Y = Y,
+                            metric = "angular")
+    
+    return(pairDist)
+    
+  })
+
+
+qs::qsave(allDocs_pairwiseDists, "allDocs_pairwiseDists.qs")
+allDocs_pairwiseDists = qs::qread("allDocs_pairwiseDists.qs")
+```
+
+
+```{r}
+# pairwiseSummarize = allDocs_pairwiseDists %>% map_dbl(mean)
+# pairwiseSummarize = allDocs_pairwiseDists %>%
+  # map_dbl(~min(.,na.rm=T)) %>% {.[is.infinite(.)] = NaN; .}
+pairwiseSummarize = allDocs_pairwiseDists %>%
+  map_dbl(~quantile(., .25, na.rm=T)) %>% {.[is.na(.)] = NaN; .}
+
+pairwiseSummarize %>% pDens
+docPairwiseDist = matrix(data=0,
+                         nrow=document_embeddings %>% length,
+                         ncol=document_embeddings %>% length,
+                         
+                         dimnames = list(
+                           (names(document_embeddings)),
+                           (names(document_embeddings)))
+                         )
+
+
+
+i = 1
+doc_combn_order %>%
+  # {.[,1:10000]} %>%
+  papply(2, function(rows){
+    # browser()
+    
+    # if(!is.nan(pairwiseSummarize[[i]]) && pairwiseSummarize[[i]] == 0){
+    #   browser()
+    # }
+    
+    if(rows[[1]] < rows[[2]]){
+      docPairwiseDist[rows[[1]],
+                      rows[[2]]] <<- pairwiseSummarize[[i]]
+    }else{
+      docPairwiseDist[rows[[2]],
+                      rows[[1]]] <<- pairwiseSummarize[[i]]
+    }
+    
+    i<<- i+1
+    
+  })
+
+docPairwiseDist = docPairwiseDist + t(docPairwiseDist)
+
+diag(docPairwiseDist) = NaN
+
+docPairwiseDist %>% image
+```
+
+
+```{r}
+docPairwiseDist %>% as.numeric %>% pDens
+
+my_dist_matrix = docPairwiseDist %>% {max(., na.rm=T) - .}
+
+# my_dist_matrix %>% as.numeric %>% mean(na.rm=T)
+# my_dist_matrix %>% as.numeric %>% pDens
+
+
+# THRESHOLD
+if(F){
+  
+  {
+    seq(.80, .999, length=20) %>%
+      # head(2) %>% 
+      map_dfr(function(cutoff){
+        thresh = my_dist_matrix %>% as.numeric %>% quantile(cutoff, na.rm = T)
+        data.table(nm=round(cutoff, 2),
+                   x=rowSums(my_dist_matrix > thresh, na.rm=T))
+      }) %>% 
+      mutate(nm=factor(nm)) %>% 
+      mutate(x=clamp(x, 50)) %>%
+      ggplot(aes(x=x, y=nm))+
+      geom_density_ridges(bandwidth=.5)
+    
+  }
+  MAIN_THRESH = my_dist_matrix %>% as.numeric %>% mean(na.rm=T)
+  MAIN_THRESH = my_dist_matrix %>% as.numeric %>% quantile(.99, na.rm = T)
+  # my_dist_matrix %>% as.numeric %>% FRCumsum()
+  
+  print(MAIN_THRESH)
+  # MAIN_THRESH = 1
+  my_dist_matrix[my_dist_matrix < MAIN_THRESH] = 0
+}else{
+  # Top 3 per row
+  
+  my_dist_matrix = my_dist_matrix %>% {max(., na.rm=T) - .}
+  
+  for(rowI in 1:nrow(my_dist_matrix)){
+    # browser()
+    isZero = my_dist_matrix[rowI, ] == 0
+    
+    
+    min5 =  
+    my_dist_matrix[rowI, ][
+      # my_dist_matrix[rowI, ] %>% order(decreasing=T) %>% {.[5:length(.)]}
+      my_dist_matrix[rowI, ] %>% rank(ties.method = "min") %>% {. > 5}
+    ] = 0
+  }
+  
+  # my_dist_matrix[upper.tri(my_dist_matrix)] = 0
+  # my_dist_matrix = my_dist_matrix + t(my_dist_matrix)
+}
+
+image(my_dist_matrix)
+my_dist_matrix[is.na(my_dist_matrix)] = 0
+```
+
+
+```{r}
+library(igraph)
+graph_from_matrix <- graph_from_adjacency_matrix(
+  my_dist_matrix, # Use your actual matrix variable here
+  # mode = "undirected",
+  mode = "directed",
+  weighted = TRUE,
+  diag = FALSE
+)
+
+# You can inspect the created graph (optional)
+cat("\nGenerated igraph object:\n")
+print(graph_from_matrix)
+cat("\nEdge weights in the graph:\n")
+print(E(graph_from_matrix)$weight) # View the edge weights (should be the distances)
+cat("\nVertex names in the graph:\n")
+print(igraph::V(graph_from_matrix)$name) # View the node names (should match matrix dimnames)
+
+
+# Run the Louvain algorithm on the graph
+# By default, cluster_louvain uses the 'weight' edge attribute if present,
+# which is exactly what we want since our weights are the distances.
+# louvain_clusters <- cluster_louvain(graph_from_matrix)
+louvain_clusters <- cluster_walktrap(graph_from_matrix)
+
+louvain_clusters$membership %>% sTable
+
+name_to_cluster = set_names(louvain_clusters$membership,
+                            igraph::V(graph_from_matrix)$name )
+
+name_to_cluster %>% as.numeric %>% sTable %>% {.[. > 10]} %>%
+  names %>%
+  rlang::set_names() %>% 
+  map(~names(name_to_cluster)[name_to_cluster == .]) %>%
+  map(~{
+    set.seed(12)
+    sample(., size=min(length(.), 20))
+    }) %>% 
+  map(function(LoL){
+    document_embeddings[LoL] %>% map_chr(~.$title)%>% set_names(NULL)
+  }) %>%
+  set_names()
+```
+
+
+```{r}
+# my_dist_matrix = my_dist_matrix[1:20, 1:20]
+my_dist_matrix_lower = my_dist_matrix
+my_dist_matrix_lower[upper.tri(my_dist_matrix_lower, diag=T)] = 0
+my_dist_sparse =  as(my_dist_matrix_lower, "TsparseMatrix")
+
+df_for_csv = data.table::data.table(
+  Source = my_dist_sparse@Dimnames[[1]][my_dist_sparse@i+1],
+  Target   = my_dist_sparse@Dimnames[[1]][my_dist_sparse@j+1],
+  val = my_dist_sparse@x
+)
+
+df_for_csv %>% nrow
+
+FN = "paperGraph.postThresh.mean.csv.gz"
+data.table::fwrite(df_for_csv, FN,
+                   quote=T)
+
+
+df_for_csv_node = data.table::data.table(
+  ID = my_dist_sparse@Dimnames[[1]],
+  Cluster = name_to_cluster[my_dist_sparse@Dimnames[[1]]] %>%
+    as.numeric %>% as.character()
+)
+
+# APPEND TO EXISTING WORKSPACE
+data.table::fwrite(df_for_csv_node, paste0(FN, ".cluster.csv.gz"),
+                   quote=T)
+```
+
+
+```{r}
+exportGraph <- function(g,filename){
+  #convert graph into a list
+  graph <- list()
+  graph$edges <- as_data_frame(g, what = "edges")
+  graph$vertices <- as_data_frame(g, what="vertices")
+  # polish vertices
+  row.names(graph$vertices) <- NULL
+  if(ncol(graph$vertices)==0) graph$vertices <- NULL #in case the 
+  
+  graph$directed <- is.directed(g)
+  graph$name <- g$name
+  #convert list into a json
+  json.content <- toJSON(graph, pretty=TRUE)
+  #write json into a file
+  if(!missing(filename)) {
+    sink(filename)
+    cat(json.content)
+    sink()
+  }
+  #return the json in case you need it
+  return(json.content)
+}
+
+xx = exportGraph(graph_from_matrix)
+write(exportGraph(graph_from_matrix),
+                     paste0(FN, ".json"))
+# jsonlite::write_json(exportGraph(graph_from_matrix),
+#                      paste0(FN, ".json"), pretty=T)
+```
+
+
+
+# OLD
+# When looking at lg_medium with 398 unknown words
+```{r}
+
+# 5714 total non-dedup
+document_embeddings %>% map(~.$embedding_matrix) %>% map_int(nrow) %>% sum
+
+
+ALL_COMBN_EMBEDDINGS = document_embeddings %>% map(~.$embedding_matrix) %>% {do.call(rbind, .)}
+
+rownames(ALL_COMBN_EMBEDDINGS) %>% unique %>% length
+# 3321 unique vs 5714 w dups
+
+
+# and 540 are all 0
+
+
+# repeated unknown to word2vec names
+ALL_COMBN_EMBEDDINGS %>% rowSums() %>% {.[.==0]} %>% names %>% unique %>% length
+ALL_COMBN_EMBEDDINGS %>% rowSums() %>% {.[.==0]} %>% names %>% unique %>% paste0(collapse=')|(') %>% {paste0("^((", ., ")) ")}
+# Paste in toS no quotes, no beginning space
+
+# /scratch/gpfs/jl8975/jlanglieb/tmp/graph/glove/300d$
+# ls|grep txt|xargs -I@ echo "echo -n '@ '; rg -f toS @|wc -l"|bash
+# glove.6B.300d.txt   23
+# glove.840B.300d.txt 214
+
+# So 214/398 are found in glove.840B.300d.txt, yay
+
+
+
+rownames(ALL_COMBN_EMBEDDINGS) %>% stable %>% set_names(NULL) %>% hist
+
+
+# rownames(ALL_COMBN_EMBEDDINGS) %>% sTable %>% tail(20)
+# transformational theory                 gesture 
+#                      16                      17 
+#                    jazz                  Mozart 
+#                      19                      20 
+#                  timbre              perception 
+#                      20                      22 
+#               semiotics                tonality 
+#                      22                      26 
+#              Schoenberg                Schenker 
+#                      31                      33 
+#            counterpoint           improvisation 
+#                      33                      34 
+#             performance                pedagogy 
+#                      35                      37 
+#                   meter                 harmony 
+#                      39                      41 
+#                    form                  rhythm 
+#                      46                      47 
+#           popular music                analysis 
+#                      55                      81 
+
+rownames(ALL_COMBN_EMBEDDINGS) %>% sTable %>%
+  FRCumsum()
+
+rownames(ALL_COMBN_EMBEDDINGS) %>% sTable %>% {.[.!= 1]} %>% 
+  clamp(10) %>% 
+  FRCumsum()+ggtitle("Non-1, clamped at 10")
+
+# All of same name are the same value
+ALL_COMBN_EMBEDDINGS %>% 
+  {.[rownames(.) == "analysis",]} %>% 
+  papply(2, ~all(. == .[[1]])) %>%
+  all
+
+
+justUniqueEmbeddings = ALL_COMBN_EMBEDDINGS %>%
+  {.[unique(rownames(.)), ]}
+
+
+fullDistMtx = Rfast::Dist(justUniqueEmbeddings,
+            method="euclidean")
+rownames(fullDistMtx) = rownames(justUniqueEmbeddings)
+colnames(fullDistMtx) = rownames(justUniqueEmbeddings)
+
+dim(fullDistMtx)
+
+fullDistMtx %>% as.numeric() %>% pDens
+fullDistMtx %>% as.numeric() %>% FRCumsum()
+
+fullDistMtx %>% as.numeric() %>% {.[. < 5]} %>% pDens
+
+(fullDistMtx < .25) %>% image(useRaster=T)
+
+newOrder = fullDistMtx %>% 
+  slanter::slanted_orders(same_order = T)
+
+
+newOrderNeg = fullDistMtx %>% 
+  {max(.)-.} %>% 
+  slanter::slanted_orders(same_order = T,  discount_outliers=F)
+
+newOrderBelow = fullDistMtx %>% 
+  {. < .25} %>% 
+  slanter::slanted_orders(same_order = T, discount_outliers=F)
+
+(fullDistMtx) %>% 
+  {max(.)-.} %>% 
+  {.[newOrderNeg$rows, newOrderNeg$rows]}%>%
+  image(useRaster=T)
+
+# (fullDistMtx < .25) %>% 
+(fullDistMtx ) %>%
+  # {.[newOrder$rows, newOrder$rows]}%>%
+  {.[newOrderBelow$rows, newOrderBelow$rows]}%>%
+  
+  image(useRaster=T)
+
+
+(fullDistMtx ) %>%
+  {.[newOrderBelow$rows, newOrderBelow$rows]} %>% 
+  rowSums %>%
+  # clamp(20000) %>%  FRCumsum()
+  {. < 18000} %>% which %>%
+  {.[diff(c(-100,.)) == 1]} %>% plot
+
+
+(fullDistMtx ) %>%
+  {.[newOrderBelow$rows, newOrderBelow$rows]} %>% 
+  {rownames(.)[1544:1940]}
+
+(fullDistMtx ) %>%
+  {.[newOrderBelow$rows, newOrderBelow$rows]} %>% 
+  {.[1544:1940, 1544:1940]} %>%
+  identity
+  # image(useRaster=T)
+
+justUniqueEmbeddings["sonorism", ] is ALL 0!
+
+```
